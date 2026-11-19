@@ -1,0 +1,10 @@
+# 학습 하이퍼파라미터 (실험 기록용)
+model: yolov8n.pt
+imgsz: 640
+batch: 8
+epochs: 120
+workers: 0
+amp: false
+seed: 0
+patience: 40
+device: 0

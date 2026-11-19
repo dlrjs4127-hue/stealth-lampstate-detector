@@ -1,0 +1,7 @@
+# ITS 합성본 2클래스 데이터셋 설정 (경로는 실행 환경에 맞게 수정)
+path: ./data
+train: train/images
+val: val/images
+names:
+  0: normal_vehicle
+  1: stealth_vehicle

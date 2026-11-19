@@ -1,0 +1,6 @@
+*.pt
+*.ckpt
+runs/
+data/
+__pycache__/
+*.log
