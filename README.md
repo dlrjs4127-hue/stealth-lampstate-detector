@@ -37,6 +37,10 @@ python src/train_detector_lighting_variants.py         # 조도 변형 + 실제 
 python src/eval_on_its_frames.py                       # 실제 프레임 추론·시각화
 ```
 
+## 평가 기준
+- 판단 단위, 지표 정의, 판정 기준(파일럿 재현율 0.50 / 최종 0.70), 실험 매트릭스는 `docs/EVALUATION_PLAN.md`에 고정했습니다.
+- 라벨·예측 CSV로 지표를 계산하는 스크립트: `python src/evaluate_predictions.py --labels labels.csv --preds preds.csv`
+
 ## 데이터
 - 원본 CCTV 프레임과 합성 이미지는 **권리 확인 전이라 저장소에 포함하지 않습니다**(`docs/DATASET_CARD.md` 참조).
 - 저장소에는 코드, 실험 설정, 집계 결과(JSON)만 둡니다.
@@ -50,3 +54,4 @@ python src/eval_on_its_frames.py                       # 실제 프레임 추론
 ## 참고
 - 모델: YOLOv8n (Ultralytics), 학습은 RTX 3080 1대로 수행.
 - 실험일지: `docs/EXPERIMENT_LOG.md`
+
