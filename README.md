@@ -55,3 +55,4 @@ python src/eval_on_its_frames.py                       # 실제 프레임 추론
 - 모델: YOLOv8n (Ultralytics), 학습은 RTX 3080 1대로 수행.
 - 실험일지: `docs/EXPERIMENT_LOG.md`
 
+

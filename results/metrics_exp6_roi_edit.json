@@ -1,0 +1,35 @@
+{
+  "composites": 50,
+  "composite_train": 40,
+  "composite_val": 10,
+  "real_train": 51,
+  "eval_frames": 51,
+  "train_seconds": 173.2,
+  "val_mAP50": 0.9759,
+  "val_mAP50_95": 0.8881,
+  "val_precision": 0.8905,
+  "val_recall": 0.9811,
+  "best": "D:\\Cache\\stealth_w4\\exp6\\runs\\exp6\\weights\\best.pt",
+  "eval_by_conf": {
+    "0.25": {
+      "normal": 116,
+      "stealth": 0,
+      "frames_hit": 47,
+      "frame_hit_rate": 0.9216
+    },
+    "0.4": {
+      "normal": 104,
+      "stealth": 0,
+      "frames_hit": 43,
+      "frame_hit_rate": 0.8431
+    },
+    "0.6": {
+      "normal": 85,
+      "stealth": 0,
+      "frames_hit": 43,
+      "frame_hit_rate": 0.8431
+    }
+  },
+  "stealth_candidates_at_025": 0,
+  "annotated": 16
+}
