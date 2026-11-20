@@ -62,6 +62,8 @@ def collect(clips: int, frames: int):
 def run(frames_dir: Path, detector: str, state_weights: str | None, out_dir: Path,
         conf: float, imgsz: int):
     det, det_name = load_detector(detector, trained=True)
+    dn = set(det.names.values()) if isinstance(det.names, dict) else set(det.names)
+    OUR_MODEL = dn.issubset({"vehicle", "normal_vehicle", "stealth_vehicle"})
     clf = load_state_classifier(state_weights)
     names = clf.names
     off_idx = [k for k, v in names.items() if v == "off"][0] if isinstance(names, dict) else names.index("off")
@@ -86,9 +88,10 @@ def run(frames_dir: Path, detector: str, state_weights: str | None, out_dir: Pat
         nobs = 0
         for b in r.boxes:
             cid = int(b.cls)
-            if det_name == "stage1_trained" and cid not in VEHICLE_CLASSES:
-                continue
-            if det_name != "stage1_trained" and cid not in COCO_VEHICLES:
+            if OUR_MODEL:
+                if cid not in VEHICLE_CLASSES:
+                    continue
+            elif cid not in COCO_VEHICLES:
                 continue
             x1, y1, x2, y2 = [int(v) for v in b.xyxy[0].tolist()]
             w, h = x2 - x1, y2 - y1
@@ -193,4 +196,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
