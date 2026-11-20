@@ -1,0 +1,1959 @@
+{
+ "made": 94,
+ "skipped": [
+  [
+   "roi_00_v2",
+   "no_car"
+  ],
+  [
+   "roi_01_v2",
+   "no_car"
+  ],
+  [
+   "roi_02_v2",
+   "no_car"
+  ],
+  [
+   "roi_05_v2",
+   "no_car"
+  ],
+  [
+   "roi_08_v2",
+   "no_car"
+  ],
+  [
+   "roi_18_v2",
+   "no_car"
+  ],
+  [
+   "roi_20_v2",
+   "no_car"
+  ],
+  [
+   "roi_21_v2",
+   "no_car"
+  ],
+  [
+   "roi_22_v2",
+   "no_car"
+  ],
+  [
+   "roi_23_v2",
+   "no_car"
+  ],
+  [
+   "roi_24_v2",
+   "no_car"
+  ],
+  [
+   "roi_25_v2",
+   "no_car"
+  ],
+  [
+   "roi_29",
+   "no_car"
+  ],
+  [
+   "roi_29_v2",
+   "no_car"
+  ],
+  [
+   "roi_38",
+   "no_car"
+  ],
+  [
+   "roi_39",
+   "no_car"
+  ],
+  [
+   "roi_63",
+   "no_car"
+  ],
+  [
+   "roi_71",
+   "no_car"
+  ]
+ ],
+ "items": [
+  {
+   "id": "stealth_000",
+   "source_edit": "roi_00_edit.png",
+   "roi": "roi_00",
+   "variant": false,
+   "frame": "frame_0047.jpg",
+   "roi_box": [
+    274,
+    264,
+    474,
+    414
+   ],
+   "car_box": [
+    312,
+    297,
+    361,
+    340
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_001",
+   "source_edit": "roi_01_edit.png",
+   "roi": "roi_01",
+   "variant": false,
+   "frame": "frame_0057.jpg",
+   "roi_box": [
+    271,
+    247,
+    471,
+    397
+   ],
+   "car_box": [
+    299,
+    288,
+    354,
+    337
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_002",
+   "source_edit": "roi_02_edit.png",
+   "roi": "roi_02",
+   "variant": false,
+   "frame": "frame_0067.jpg",
+   "roi_box": [
+    296,
+    329,
+    496,
+    479
+   ],
+   "car_box": [
+    362,
+    359,
+    422,
+    404
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_003",
+   "source_edit": "roi_03_edit.png",
+   "roi": "roi_03",
+   "variant": false,
+   "frame": "frame_0068.jpg",
+   "roi_box": [
+    340,
+    301,
+    540,
+    451
+   ],
+   "car_box": [
+    372,
+    349,
+    432,
+    403
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_004",
+   "source_edit": "roi_03_v2_edit.png",
+   "roi": "roi_03",
+   "variant": true,
+   "frame": "frame_0068.jpg",
+   "roi_box": [
+    340,
+    301,
+    540,
+    451
+   ],
+   "car_box": [
+    375,
+    339,
+    425,
+    381
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_005",
+   "source_edit": "roi_04_edit.png",
+   "roi": "roi_04",
+   "variant": false,
+   "frame": "frame_0071.jpg",
+   "roi_box": [
+    286,
+    329,
+    486,
+    479
+   ],
+   "car_box": [
+    365,
+    358,
+    422,
+    405
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_006",
+   "source_edit": "roi_04_v2_edit.png",
+   "roi": "roi_04",
+   "variant": true,
+   "frame": "frame_0071.jpg",
+   "roi_box": [
+    286,
+    329,
+    486,
+    479
+   ],
+   "car_box": [
+    374,
+    355,
+    400,
+    374
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_007",
+   "source_edit": "roi_05_edit.png",
+   "roi": "roi_05",
+   "variant": false,
+   "frame": "frame_0077.jpg",
+   "roi_box": [
+    244,
+    284,
+    444,
+    434
+   ],
+   "car_box": [
+    316,
+    296,
+    372,
+    367
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_008",
+   "source_edit": "roi_06_edit.png",
+   "roi": "roi_06",
+   "variant": false,
+   "frame": "frame_0078.jpg",
+   "roi_box": [
+    519,
+    229,
+    719,
+    379
+   ],
+   "car_box": [
+    563,
+    285,
+    618,
+    322
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_009",
+   "source_edit": "roi_06_v2_edit.png",
+   "roi": "roi_06",
+   "variant": true,
+   "frame": "frame_0078.jpg",
+   "roi_box": [
+    519,
+    229,
+    719,
+    379
+   ],
+   "car_box": [
+    552,
+    278,
+    594,
+    307
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_010",
+   "source_edit": "roi_07_edit.png",
+   "roi": "roi_07",
+   "variant": false,
+   "frame": "frame_0097.jpg",
+   "roi_box": [
+    519,
+    228,
+    719,
+    378
+   ],
+   "car_box": [
+    585,
+    287,
+    628,
+    321
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_011",
+   "source_edit": "roi_07_v2_edit.png",
+   "roi": "roi_07",
+   "variant": true,
+   "frame": "frame_0097.jpg",
+   "roi_box": [
+    519,
+    228,
+    719,
+    378
+   ],
+   "car_box": [
+    595,
+    286,
+    637,
+    318
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_012",
+   "source_edit": "roi_08_edit.png",
+   "roi": "roi_08",
+   "variant": false,
+   "frame": "frame_0111.jpg",
+   "roi_box": [
+    448,
+    329,
+    648,
+    479
+   ],
+   "car_box": [
+    537,
+    393,
+    588,
+    429
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_013",
+   "source_edit": "roi_09_edit.png",
+   "roi": "roi_09",
+   "variant": false,
+   "frame": "frame_0121.jpg",
+   "roi_box": [
+    384,
+    329,
+    584,
+    479
+   ],
+   "car_box": [
+    436,
+    392,
+    487,
+    438
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_014",
+   "source_edit": "roi_09_v2_edit.png",
+   "roi": "roi_09",
+   "variant": true,
+   "frame": "frame_0121.jpg",
+   "roi_box": [
+    384,
+    329,
+    584,
+    479
+   ],
+   "car_box": [
+    427,
+    388,
+    483,
+    435
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_015",
+   "source_edit": "roi_10_edit.png",
+   "roi": "roi_10",
+   "variant": false,
+   "frame": "frame_0146.jpg",
+   "roi_box": [
+    505,
+    289,
+    705,
+    439
+   ],
+   "car_box": [
+    566,
+    306,
+    611,
+    340
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_016",
+   "source_edit": "roi_10_v2_edit.png",
+   "roi": "roi_10",
+   "variant": true,
+   "frame": "frame_0146.jpg",
+   "roi_box": [
+    505,
+    289,
+    705,
+    439
+   ],
+   "car_box": [
+    540,
+    311,
+    582,
+    340
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_017",
+   "source_edit": "roi_11_edit.png",
+   "roi": "roi_11",
+   "variant": false,
+   "frame": "frame_0149.jpg",
+   "roi_box": [
+    516,
+    329,
+    716,
+    479
+   ],
+   "car_box": [
+    560,
+    394,
+    604,
+    439
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_018",
+   "source_edit": "roi_11_v2_edit.png",
+   "roi": "roi_11",
+   "variant": true,
+   "frame": "frame_0149.jpg",
+   "roi_box": [
+    516,
+    329,
+    716,
+    479
+   ],
+   "car_box": [
+    627,
+    396,
+    670,
+    428
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_019",
+   "source_edit": "roi_12_edit.png",
+   "roi": "roi_12",
+   "variant": false,
+   "frame": "frame_0152.jpg",
+   "roi_box": [
+    392,
+    329,
+    592,
+    479
+   ],
+   "car_box": [
+    483,
+    354,
+    528,
+    386
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_020",
+   "source_edit": "roi_12_v2_edit.png",
+   "roi": "roi_12",
+   "variant": true,
+   "frame": "frame_0152.jpg",
+   "roi_box": [
+    392,
+    329,
+    592,
+    479
+   ],
+   "car_box": [
+    465,
+    335,
+    491,
+    358
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_021",
+   "source_edit": "roi_13_edit.png",
+   "roi": "roi_13",
+   "variant": false,
+   "frame": "frame_0156.jpg",
+   "roi_box": [
+    389,
+    290,
+    589,
+    440
+   ],
+   "car_box": [
+    468,
+    313,
+    521,
+    354
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_022",
+   "source_edit": "roi_13_v2_edit.png",
+   "roi": "roi_13",
+   "variant": true,
+   "frame": "frame_0156.jpg",
+   "roi_box": [
+    389,
+    290,
+    589,
+    440
+   ],
+   "car_box": [
+    457,
+    325,
+    515,
+    370
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_023",
+   "source_edit": "roi_14_edit.png",
+   "roi": "roi_14",
+   "variant": false,
+   "frame": "frame_0159.jpg",
+   "roi_box": [
+    410,
+    282,
+    610,
+    432
+   ],
+   "car_box": [
+    467,
+    316,
+    511,
+    348
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_024",
+   "source_edit": "roi_14_v2_edit.png",
+   "roi": "roi_14",
+   "variant": true,
+   "frame": "frame_0159.jpg",
+   "roi_box": [
+    410,
+    282,
+    610,
+    432
+   ],
+   "car_box": [
+    508,
+    321,
+    526,
+    335
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_025",
+   "source_edit": "roi_15_edit.png",
+   "roi": "roi_15",
+   "variant": false,
+   "frame": "frame_0162.jpg",
+   "roi_box": [
+    486,
+    251,
+    686,
+    401
+   ],
+   "car_box": [
+    540,
+    281,
+    602,
+    331
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_026",
+   "source_edit": "roi_15_v2_edit.png",
+   "roi": "roi_15",
+   "variant": true,
+   "frame": "frame_0162.jpg",
+   "roi_box": [
+    486,
+    251,
+    686,
+    401
+   ],
+   "car_box": [
+    514,
+    269,
+    624,
+    343
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_027",
+   "source_edit": "roi_16_edit.png",
+   "roi": "roi_16",
+   "variant": false,
+   "frame": "frame_0166.jpg",
+   "roi_box": [
+    278,
+    203,
+    478,
+    353
+   ],
+   "car_box": [
+    357,
+    242,
+    393,
+    273
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_028",
+   "source_edit": "roi_16_v2_edit.png",
+   "roi": "roi_16",
+   "variant": true,
+   "frame": "frame_0166.jpg",
+   "roi_box": [
+    278,
+    203,
+    478,
+    353
+   ],
+   "car_box": [
+    343,
+    248,
+    371,
+    270
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_029",
+   "source_edit": "roi_17_edit.png",
+   "roi": "roi_17",
+   "variant": false,
+   "frame": "frame_0169.jpg",
+   "roi_box": [
+    363,
+    198,
+    563,
+    348
+   ],
+   "car_box": [
+    442,
+    238,
+    489,
+    287
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_030",
+   "source_edit": "roi_17_v2_edit.png",
+   "roi": "roi_17",
+   "variant": true,
+   "frame": "frame_0169.jpg",
+   "roi_box": [
+    363,
+    198,
+    563,
+    348
+   ],
+   "car_box": [
+    462,
+    254,
+    501,
+    287
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_031",
+   "source_edit": "roi_18_edit.png",
+   "roi": "roi_18",
+   "variant": false,
+   "frame": "frame_0172.jpg",
+   "roi_box": [
+    519,
+    227,
+    719,
+    377
+   ],
+   "car_box": [
+    570,
+    288,
+    630,
+    326
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_032",
+   "source_edit": "roi_19_edit.png",
+   "roi": "roi_19",
+   "variant": false,
+   "frame": "frame_0173.jpg",
+   "roi_box": [
+    418,
+    256,
+    618,
+    406
+   ],
+   "car_box": [
+    463,
+    275,
+    509,
+    310
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_033",
+   "source_edit": "roi_19_v2_edit.png",
+   "roi": "roi_19",
+   "variant": true,
+   "frame": "frame_0173.jpg",
+   "roi_box": [
+    418,
+    256,
+    618,
+    406
+   ],
+   "car_box": [
+    430,
+    288,
+    463,
+    316
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_034",
+   "source_edit": "roi_20_edit.png",
+   "roi": "roi_20",
+   "variant": false,
+   "frame": "frame_0183.jpg",
+   "roi_box": [
+    264,
+    260,
+    464,
+    410
+   ],
+   "car_box": [
+    311,
+    293,
+    356,
+    330
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_035",
+   "source_edit": "roi_21_edit.png",
+   "roi": "roi_21",
+   "variant": false,
+   "frame": "frame_0191.jpg",
+   "roi_box": [
+    519,
+    197,
+    719,
+    347
+   ],
+   "car_box": [
+    544,
+    270,
+    604,
+    317
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_036",
+   "source_edit": "roi_22_edit.png",
+   "roi": "roi_22",
+   "variant": false,
+   "frame": "frame_0193.jpg",
+   "roi_box": [
+    519,
+    239,
+    719,
+    389
+   ],
+   "car_box": [
+    576,
+    289,
+    630,
+    331
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_037",
+   "source_edit": "roi_23_edit.png",
+   "roi": "roi_23",
+   "variant": false,
+   "frame": "frame_0195.jpg",
+   "roi_box": [
+    519,
+    326,
+    719,
+    476
+   ],
+   "car_box": [
+    618,
+    400,
+    669,
+    448
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_038",
+   "source_edit": "roi_24_edit.png",
+   "roi": "roi_24",
+   "variant": false,
+   "frame": "frame_0201.jpg",
+   "roi_box": [
+    321,
+    329,
+    521,
+    479
+   ],
+   "car_box": [
+    384,
+    363,
+    435,
+    402
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_039",
+   "source_edit": "roi_25_edit.png",
+   "roi": "roi_25",
+   "variant": false,
+   "frame": "frame_0205.jpg",
+   "roi_box": [
+    403,
+    329,
+    603,
+    479
+   ],
+   "car_box": [
+    430,
+    394,
+    490,
+    443
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_040",
+   "source_edit": "roi_26_edit.png",
+   "roi": "roi_26",
+   "variant": false,
+   "frame": "frame_0211.jpg",
+   "roi_box": [
+    389,
+    309,
+    589,
+    459
+   ],
+   "car_box": [
+    416,
+    378,
+    465,
+    416
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_041",
+   "source_edit": "roi_26_v2_edit.png",
+   "roi": "roi_26",
+   "variant": true,
+   "frame": "frame_0211.jpg",
+   "roi_box": [
+    389,
+    309,
+    589,
+    459
+   ],
+   "car_box": [
+    405,
+    368,
+    450,
+    405
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_042",
+   "source_edit": "roi_27_edit.png",
+   "roi": "roi_27",
+   "variant": false,
+   "frame": "frame_0245.jpg",
+   "roi_box": [
+    519,
+    270,
+    719,
+    420
+   ],
+   "car_box": [
+    597,
+    311,
+    644,
+    352
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_043",
+   "source_edit": "roi_27_v2_edit.png",
+   "roi": "roi_27",
+   "variant": true,
+   "frame": "frame_0245.jpg",
+   "roi_box": [
+    519,
+    270,
+    719,
+    420
+   ],
+   "car_box": [
+    590,
+    315,
+    631,
+    348
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_044",
+   "source_edit": "roi_28_edit.png",
+   "roi": "roi_28",
+   "variant": false,
+   "frame": "frame_0255.jpg",
+   "roi_box": [
+    270,
+    256,
+    470,
+    406
+   ],
+   "car_box": [
+    307,
+    303,
+    361,
+    350
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_045",
+   "source_edit": "roi_28_v2_edit.png",
+   "roi": "roi_28",
+   "variant": true,
+   "frame": "frame_0255.jpg",
+   "roi_box": [
+    270,
+    256,
+    470,
+    406
+   ],
+   "car_box": [
+    313,
+    275,
+    338,
+    301
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_046",
+   "source_edit": "roi_30_edit.png",
+   "roi": "roi_30",
+   "variant": false,
+   "frame": "frame_0265.jpg",
+   "roi_box": [
+    514,
+    329,
+    714,
+    479
+   ],
+   "car_box": [
+    589,
+    399,
+    638,
+    429
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_047",
+   "source_edit": "roi_31_edit.png",
+   "roi": "roi_31",
+   "variant": false,
+   "frame": "frame_0267.jpg",
+   "roi_box": [
+    273,
+    298,
+    473,
+    448
+   ],
+   "car_box": [
+    331,
+    328,
+    387,
+    376
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_048",
+   "source_edit": "roi_32_edit.png",
+   "roi": "roi_32",
+   "variant": false,
+   "frame": "frame_0277.jpg",
+   "roi_box": [
+    519,
+    237,
+    719,
+    387
+   ],
+   "car_box": [
+    558,
+    278,
+    616,
+    320
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_049",
+   "source_edit": "roi_33_edit.png",
+   "roi": "roi_33",
+   "variant": false,
+   "frame": "frame_0314.jpg",
+   "roi_box": [
+    388,
+    208,
+    588,
+    358
+   ],
+   "car_box": [
+    464,
+    254,
+    501,
+    285
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_050",
+   "source_edit": "roi_34_edit.png",
+   "roi": "roi_34",
+   "variant": false,
+   "frame": "frame_0324.jpg",
+   "roi_box": [
+    272,
+    329,
+    472,
+    479
+   ],
+   "car_box": [
+    343,
+    354,
+    397,
+    397
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_051",
+   "source_edit": "roi_35_edit.png",
+   "roi": "roi_35",
+   "variant": false,
+   "frame": "frame_0329.jpg",
+   "roi_box": [
+    281,
+    296,
+    481,
+    446
+   ],
+   "car_box": [
+    337,
+    324,
+    394,
+    386
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_052",
+   "source_edit": "roi_36_edit.png",
+   "roi": "roi_36",
+   "variant": false,
+   "frame": "frame_0339.jpg",
+   "roi_box": [
+    519,
+    239,
+    719,
+    389
+   ],
+   "car_box": [
+    581,
+    287,
+    620,
+    315
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_053",
+   "source_edit": "roi_37_edit.png",
+   "roi": "roi_37",
+   "variant": false,
+   "frame": "frame_0344.jpg",
+   "roi_box": [
+    419,
+    324,
+    619,
+    474
+   ],
+   "car_box": [
+    494,
+    368,
+    541,
+    406
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_054",
+   "source_edit": "roi_40_edit.png",
+   "roi": "roi_40",
+   "variant": false,
+   "frame": "frame_0359.jpg",
+   "roi_box": [
+    479,
+    312,
+    679,
+    462
+   ],
+   "car_box": [
+    567,
+    318,
+    613,
+    351
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_055",
+   "source_edit": "roi_41_edit.png",
+   "roi": "roi_41",
+   "variant": false,
+   "frame": "frame_0057.jpg",
+   "roi_box": [
+    347,
+    318,
+    547,
+    468
+   ],
+   "car_box": [
+    395,
+    345,
+    449,
+    410
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_056",
+   "source_edit": "roi_42_edit.png",
+   "roi": "roi_42",
+   "variant": false,
+   "frame": "frame_0067.jpg",
+   "roi_box": [
+    336,
+    329,
+    536,
+    479
+   ],
+   "car_box": [
+    382,
+    363,
+    425,
+    396
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_057",
+   "source_edit": "roi_43_edit.png",
+   "roi": "roi_43",
+   "variant": false,
+   "frame": "frame_0068.jpg",
+   "roi_box": [
+    312,
+    322,
+    512,
+    472
+   ],
+   "car_box": [
+    359,
+    352,
+    421,
+    404
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_058",
+   "source_edit": "roi_44_edit.png",
+   "roi": "roi_44",
+   "variant": false,
+   "frame": "frame_0071.jpg",
+   "roi_box": [
+    315,
+    305,
+    515,
+    455
+   ],
+   "car_box": [
+    340,
+    341,
+    396,
+    386
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_059",
+   "source_edit": "roi_45_edit.png",
+   "roi": "roi_45",
+   "variant": false,
+   "frame": "frame_0077.jpg",
+   "roi_box": [
+    519,
+    237,
+    719,
+    387
+   ],
+   "car_box": [
+    577,
+    282,
+    632,
+    327
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_060",
+   "source_edit": "roi_46_edit.png",
+   "roi": "roi_46",
+   "variant": false,
+   "frame": "frame_0097.jpg",
+   "roi_box": [
+    519,
+    302,
+    719,
+    452
+   ],
+   "car_box": [
+    561,
+    318,
+    612,
+    353
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_061",
+   "source_edit": "roi_47_edit.png",
+   "roi": "roi_47",
+   "variant": false,
+   "frame": "frame_0111.jpg",
+   "roi_box": [
+    354,
+    329,
+    554,
+    479
+   ],
+   "car_box": [
+    391,
+    352,
+    442,
+    409
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_062",
+   "source_edit": "roi_48_edit.png",
+   "roi": "roi_48",
+   "variant": false,
+   "frame": "frame_0115.jpg",
+   "roi_box": [
+    354,
+    329,
+    554,
+    479
+   ],
+   "car_box": [
+    386,
+    372,
+    439,
+    411
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_063",
+   "source_edit": "roi_49_edit.png",
+   "roi": "roi_49",
+   "variant": false,
+   "frame": "frame_0121.jpg",
+   "roi_box": [
+    385,
+    329,
+    585,
+    479
+   ],
+   "car_box": [
+    436,
+    400,
+    491,
+    447
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_064",
+   "source_edit": "roi_50_edit.png",
+   "roi": "roi_50",
+   "variant": false,
+   "frame": "frame_0146.jpg",
+   "roi_box": [
+    508,
+    283,
+    708,
+    433
+   ],
+   "car_box": [
+    554,
+    304,
+    605,
+    342
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_065",
+   "source_edit": "roi_51_edit.png",
+   "roi": "roi_51",
+   "variant": false,
+   "frame": "frame_0149.jpg",
+   "roi_box": [
+    501,
+    328,
+    701,
+    478
+   ],
+   "car_box": [
+    555,
+    395,
+    605,
+    438
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_066",
+   "source_edit": "roi_52_edit.png",
+   "roi": "roi_52",
+   "variant": false,
+   "frame": "frame_0152.jpg",
+   "roi_box": [
+    512,
+    299,
+    712,
+    449
+   ],
+   "car_box": [
+    573,
+    313,
+    613,
+    343
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_067",
+   "source_edit": "roi_53_edit.png",
+   "roi": "roi_53",
+   "variant": false,
+   "frame": "frame_0156.jpg",
+   "roi_box": [
+    367,
+    278,
+    567,
+    428
+   ],
+   "car_box": [
+    469,
+    293,
+    517,
+    345
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_068",
+   "source_edit": "roi_54_edit.png",
+   "roi": "roi_54",
+   "variant": false,
+   "frame": "frame_0159.jpg",
+   "roi_box": [
+    384,
+    288,
+    584,
+    438
+   ],
+   "car_box": [
+    476,
+    316,
+    519,
+    346
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_069",
+   "source_edit": "roi_55_edit.png",
+   "roi": "roi_55",
+   "variant": false,
+   "frame": "frame_0162.jpg",
+   "roi_box": [
+    491,
+    245,
+    691,
+    395
+   ],
+   "car_box": [
+    543,
+    276,
+    600,
+    320
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_070",
+   "source_edit": "roi_56_edit.png",
+   "roi": "roi_56",
+   "variant": false,
+   "frame": "frame_0166.jpg",
+   "roi_box": [
+    392,
+    207,
+    592,
+    357
+   ],
+   "car_box": [
+    477,
+    266,
+    518,
+    296
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_071",
+   "source_edit": "roi_57_edit.png",
+   "roi": "roi_57",
+   "variant": false,
+   "frame": "frame_0169.jpg",
+   "roi_box": [
+    468,
+    202,
+    668,
+    352
+   ],
+   "car_box": [
+    530,
+    260,
+    583,
+    309
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_072",
+   "source_edit": "roi_58_edit.png",
+   "roi": "roi_58",
+   "variant": false,
+   "frame": "frame_0172.jpg",
+   "roi_box": [
+    464,
+    329,
+    664,
+    479
+   ],
+   "car_box": [
+    510,
+    360,
+    552,
+    391
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_073",
+   "source_edit": "roi_59_edit.png",
+   "roi": "roi_59",
+   "variant": false,
+   "frame": "frame_0173.jpg",
+   "roi_box": [
+    350,
+    217,
+    550,
+    367
+   ],
+   "car_box": [
+    423,
+    249,
+    467,
+    294
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_074",
+   "source_edit": "roi_60_edit.png",
+   "roi": "roi_60",
+   "variant": false,
+   "frame": "frame_0183.jpg",
+   "roi_box": [
+    212,
+    220,
+    412,
+    370
+   ],
+   "car_box": [
+    303,
+    263,
+    338,
+    290
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_075",
+   "source_edit": "roi_61_edit.png",
+   "roi": "roi_61",
+   "variant": false,
+   "frame": "frame_0185.jpg",
+   "roi_box": [
+    220,
+    225,
+    420,
+    375
+   ],
+   "car_box": [
+    304,
+    256,
+    339,
+    289
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_076",
+   "source_edit": "roi_62_edit.png",
+   "roi": "roi_62",
+   "variant": false,
+   "frame": "frame_0191.jpg",
+   "roi_box": [
+    221,
+    204,
+    421,
+    354
+   ],
+   "car_box": [
+    284,
+    250,
+    324,
+    287
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_077",
+   "source_edit": "roi_64_edit.png",
+   "roi": "roi_64",
+   "variant": false,
+   "frame": "frame_0195.jpg",
+   "roi_box": [
+    519,
+    329,
+    719,
+    479
+   ],
+   "car_box": [
+    610,
+    403,
+    661,
+    443
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_078",
+   "source_edit": "roi_65_edit.png",
+   "roi": "roi_65",
+   "variant": false,
+   "frame": "frame_0201.jpg",
+   "roi_box": [
+    218,
+    232,
+    418,
+    382
+   ],
+   "car_box": [
+    293,
+    256,
+    343,
+    318
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_079",
+   "source_edit": "roi_66_edit.png",
+   "roi": "roi_66",
+   "variant": false,
+   "frame": "frame_0205.jpg",
+   "roi_box": [
+    459,
+    326,
+    659,
+    476
+   ],
+   "car_box": [
+    558,
+    398,
+    615,
+    436
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_080",
+   "source_edit": "roi_67_edit.png",
+   "roi": "roi_67",
+   "variant": false,
+   "frame": "frame_0211.jpg",
+   "roi_box": [
+    467,
+    268,
+    667,
+    418
+   ],
+   "car_box": [
+    512,
+    281,
+    568,
+    326
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_081",
+   "source_edit": "roi_68_edit.png",
+   "roi": "roi_68",
+   "variant": false,
+   "frame": "frame_0245.jpg",
+   "roi_box": [
+    471,
+    304,
+    671,
+    454
+   ],
+   "car_box": [
+    578,
+    325,
+    624,
+    357
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_082",
+   "source_edit": "roi_69_edit.png",
+   "roi": "roi_69",
+   "variant": false,
+   "frame": "frame_0255.jpg",
+   "roi_box": [
+    410,
+    304,
+    610,
+    454
+   ],
+   "car_box": [
+    459,
+    326,
+    515,
+    371
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_083",
+   "source_edit": "roi_70_edit.png",
+   "roi": "roi_70",
+   "variant": false,
+   "frame": "frame_0257.jpg",
+   "roi_box": [
+    479,
+    329,
+    679,
+    479
+   ],
+   "car_box": [
+    553,
+    395,
+    605,
+    434
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_084",
+   "source_edit": "roi_72_edit.png",
+   "roi": "roi_72",
+   "variant": false,
+   "frame": "frame_0267.jpg",
+   "roi_box": [
+    243,
+    202,
+    443,
+    352
+   ],
+   "car_box": [
+    275,
+    247,
+    310,
+    276
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_085",
+   "source_edit": "roi_73_edit.png",
+   "roi": "roi_73",
+   "variant": false,
+   "frame": "frame_0277.jpg",
+   "roi_box": [
+    405,
+    329,
+    605,
+    479
+   ],
+   "car_box": [
+    434,
+    398,
+    483,
+    440
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_086",
+   "source_edit": "roi_74_edit.png",
+   "roi": "roi_74",
+   "variant": false,
+   "frame": "frame_0314.jpg",
+   "roi_box": [
+    316,
+    198,
+    516,
+    348
+   ],
+   "car_box": [
+    439,
+    257,
+    472,
+    282
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_087",
+   "source_edit": "roi_75_edit.png",
+   "roi": "roi_75",
+   "variant": false,
+   "frame": "frame_0324.jpg",
+   "roi_box": [
+    276,
+    266,
+    476,
+    416
+   ],
+   "car_box": [
+    309,
+    303,
+    368,
+    361
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_088",
+   "source_edit": "roi_76_edit.png",
+   "roi": "roi_76",
+   "variant": false,
+   "frame": "frame_0334.jpg",
+   "roi_box": [
+    372,
+    329,
+    572,
+    479
+   ],
+   "car_box": [
+    420,
+    388,
+    470,
+    428
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_089",
+   "source_edit": "roi_77_edit.png",
+   "roi": "roi_77",
+   "variant": false,
+   "frame": "frame_0339.jpg",
+   "roi_box": [
+    519,
+    238,
+    719,
+    388
+   ],
+   "car_box": [
+    565,
+    268,
+    622,
+    324
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_090",
+   "source_edit": "roi_78_edit.png",
+   "roi": "roi_78",
+   "variant": false,
+   "frame": "frame_0344.jpg",
+   "roi_box": [
+    438,
+    323,
+    638,
+    473
+   ],
+   "car_box": [
+    524,
+    389,
+    568,
+    421
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_091",
+   "source_edit": "roi_79_edit.png",
+   "roi": "roi_79",
+   "variant": false,
+   "frame": "frame_0349.jpg",
+   "roi_box": [
+    506,
+    280,
+    706,
+    430
+   ],
+   "car_box": [
+    591,
+    303,
+    647,
+    345
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_092",
+   "source_edit": "roi_80_edit.png",
+   "roi": "roi_80",
+   "variant": false,
+   "frame": "frame_0354.jpg",
+   "roi_box": [
+    494,
+    239,
+    694,
+    389
+   ],
+   "car_box": [
+    566,
+    297,
+    625,
+    338
+   ],
+   "outside_changed_px": 0
+  },
+  {
+   "id": "stealth_093",
+   "source_edit": "roi_81_edit.png",
+   "roi": "roi_81",
+   "variant": false,
+   "frame": "frame_0359.jpg",
+   "roi_box": [
+    436,
+    278,
+    636,
+    428
+   ],
+   "car_box": [
+    543,
+    293,
+    603,
+    346
+   ],
+   "outside_changed_px": 0
+  }
+ ]
+}
