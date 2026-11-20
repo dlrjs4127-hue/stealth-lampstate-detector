@@ -1,0 +1,246 @@
+{
+  "run_at": "2026-11-20T21:16:09",
+  "frames_dir": "D:\\Cache\\its_night\\2026-11-20_2000",
+  "detector": "stage1_trained:best.pt",
+  "frames": 36,
+  "observations": 165,
+  "latency_mean_ms": 54.3,
+  "latency_p90_ms": 62.6,
+  "events": {
+    "tracks": 138,
+    "confirmed_events": 0,
+    "confirmed_tracks": 0,
+    "unknown_tracks": 49,
+    "repeat_alerts_same_track": 0
+  },
+  "skipped_guards": {
+    "bright_text": 32,
+    "top_overlay": 1
+  },
+  "config": {
+    "conf": 0.25,
+    "imgsz": 960,
+    "enter": 0.6,
+    "exit": 0.4,
+    "ewma_alpha": 0.45,
+    "min_width_px": 18
+  },
+  "frames_detail": [
+    {
+      "camera": "[경부선] 금현동",
+      "frame": "frame_00.png",
+      "observations": 3,
+      "latency_ms": 754.5
+    },
+    {
+      "camera": "[경부선] 금현동",
+      "frame": "frame_01.png",
+      "observations": 2,
+      "latency_ms": 19.9
+    },
+    {
+      "camera": "[경부선] 금현동",
+      "frame": "frame_02.png",
+      "observations": 2,
+      "latency_ms": 24.9
+    },
+    {
+      "camera": "[경부선] 달래내1",
+      "frame": "frame_00.png",
+      "observations": 6,
+      "latency_ms": 34.8
+    },
+    {
+      "camera": "[경부선] 달래내1",
+      "frame": "frame_01.png",
+      "observations": 6,
+      "latency_ms": 40.0
+    },
+    {
+      "camera": "[경부선] 달래내1",
+      "frame": "frame_02.png",
+      "observations": 3,
+      "latency_ms": 24.7
+    },
+    {
+      "camera": "[경부선] 달래내2",
+      "frame": "frame_00.png",
+      "observations": 1,
+      "latency_ms": 22.2
+    },
+    {
+      "camera": "[경부선] 달래내2",
+      "frame": "frame_01.png",
+      "observations": 1,
+      "latency_ms": 18.7
+    },
+    {
+      "camera": "[경부선] 달래내2",
+      "frame": "frame_02.png",
+      "observations": 2,
+      "latency_ms": 22.9
+    },
+    {
+      "camera": "[경부선] 삼평터널(서울)",
+      "frame": "frame_00.png",
+      "observations": 0,
+      "latency_ms": 12.4
+    },
+    {
+      "camera": "[경부선] 삼평터널(서울)",
+      "frame": "frame_01.png",
+      "observations": 0,
+      "latency_ms": 7.8
+    },
+    {
+      "camera": "[경부선] 삼평터널(서울)",
+      "frame": "frame_02.png",
+      "observations": 2,
+      "latency_ms": 30.3
+    },
+    {
+      "camera": "[경부선] 상적교",
+      "frame": "frame_00.png",
+      "observations": 14,
+      "latency_ms": 84.1
+    },
+    {
+      "camera": "[경부선] 상적교",
+      "frame": "frame_01.png",
+      "observations": 6,
+      "latency_ms": 39.7
+    },
+    {
+      "camera": "[경부선] 상적교",
+      "frame": "frame_02.png",
+      "observations": 8,
+      "latency_ms": 57.4
+    },
+    {
+      "camera": "[경부선] 서초",
+      "frame": "frame_00.png",
+      "observations": 16,
+      "latency_ms": 82.4
+    },
+    {
+      "camera": "[경부선] 서초",
+      "frame": "frame_01.png",
+      "observations": 10,
+      "latency_ms": 60.7
+    },
+    {
+      "camera": "[경부선] 서초",
+      "frame": "frame_02.png",
+      "observations": 12,
+      "latency_ms": 58.5
+    },
+    {
+      "camera": "[경부선] 양재",
+      "frame": "frame_00.png",
+      "observations": 0,
+      "latency_ms": 12.8
+    },
+    {
+      "camera": "[경부선] 양재",
+      "frame": "frame_01.png",
+      "observations": 0,
+      "latency_ms": 12.3
+    },
+    {
+      "camera": "[경부선] 양재",
+      "frame": "frame_02.png",
+      "observations": 1,
+      "latency_ms": 19.7
+    },
+    {
+      "camera": "[경부선] 원지동",
+      "frame": "frame_00.png",
+      "observations": 4,
+      "latency_ms": 35.3
+    },
+    {
+      "camera": "[경부선] 원지동",
+      "frame": "frame_01.png",
+      "observations": 5,
+      "latency_ms": 40.0
+    },
+    {
+      "camera": "[경부선] 원지동",
+      "frame": "frame_02.png",
+      "observations": 10,
+      "latency_ms": 62.3
+    },
+    {
+      "camera": "[경부선] 판교3",
+      "frame": "frame_00.png",
+      "observations": 2,
+      "latency_ms": 28.7
+    },
+    {
+      "camera": "[경부선] 판교3",
+      "frame": "frame_01.png",
+      "observations": 1,
+      "latency_ms": 25.1
+    },
+    {
+      "camera": "[경부선] 판교3",
+      "frame": "frame_02.png",
+      "observations": 2,
+      "latency_ms": 30.1
+    },
+    {
+      "camera": "[경부선] 판교분기점",
+      "frame": "frame_00.png",
+      "observations": 0,
+      "latency_ms": 15.1
+    },
+    {
+      "camera": "[경부선] 판교분기점",
+      "frame": "frame_01.png",
+      "observations": 0,
+      "latency_ms": 14.5
+    },
+    {
+      "camera": "[경부선] 판교분기점",
+      "frame": "frame_02.png",
+      "observations": 0,
+      "latency_ms": 12.8
+    },
+    {
+      "camera": "[수도권제1순환선] 성남",
+      "frame": "frame_00.png",
+      "observations": 7,
+      "latency_ms": 37.4
+    },
+    {
+      "camera": "[수도권제1순환선] 성남",
+      "frame": "frame_01.png",
+      "observations": 2,
+      "latency_ms": 20.2
+    },
+    {
+      "camera": "[수도권제1순환선] 성남",
+      "frame": "frame_02.png",
+      "observations": 3,
+      "latency_ms": 25.2
+    },
+    {
+      "camera": "[수도권제1순환선] 판교분기점",
+      "frame": "frame_00.png",
+      "observations": 13,
+      "latency_ms": 62.8
+    },
+    {
+      "camera": "[수도권제1순환선] 판교분기점",
+      "frame": "frame_01.png",
+      "observations": 12,
+      "latency_ms": 61.9
+    },
+    {
+      "camera": "[수도권제1순환선] 판교분기점",
+      "frame": "frame_02.png",
+      "observations": 9,
+      "latency_ms": 44.4
+    }
+  ]
+}

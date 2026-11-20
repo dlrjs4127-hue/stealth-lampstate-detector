@@ -23,10 +23,12 @@ class EventConfig:
 @dataclass
 class Track:
     tid: int
+    camera: str
     box: tuple
     score: float = 0.0
     hits: int = 0
     state: str = "unknown"
+    stale: int = 0
     alerted: bool = False
     history: list = field(default_factory=list)
 
@@ -50,22 +52,27 @@ class EventJudge:
         self.events: list[dict] = []
 
     # ---- 트랙 연결 ----
-    def _match(self, box):
+    def _match(self, box, camera):
         best, best_iou = None, 0.0
         for t in self.tracks.values():
+            if t.camera != camera:
+                continue
             v = iou(box, t.box)
             if v > best_iou:
                 best, best_iou = t, v
         if best is not None and best_iou >= self.cfg.iou_match:
             return best
-        t = Track(tid=self._next, box=box)
+        t = Track(tid=self._next, camera=camera, box=box)
         self._next += 1
         self.tracks[t.tid] = t
         return t
 
     # ---- 관측 1건 반영 ----
-    def observe(self, frame_id: str, box, p_off: float, entropy: float, width_px: int):
-        t = self._match(box)
+    def observe(self, frame_id: str, box, p_off: float, entropy: float, width_px: int, camera: str = ""):
+        # 오래된 트랙 만료(카메라별 12회 관측 동안 갱신 없으면 종료)
+        for tid in [k for k, v in self.tracks.items() if v.camera == camera and v.hits > 0 and v.stale >= 12]:
+            self.tracks.pop(tid, None)
+        t = self._match(box, camera)
         t.box = box
         t.hits += 1
 
@@ -109,3 +116,4 @@ class EventJudge:
             "unknown_tracks": len(unknown),
             "repeat_alerts_same_track": len([e for e in self.events if e["event"] == "alert_on"]) - len({e["track_id"] for e in self.events if e["event"] == "alert_on"}),
         }
+

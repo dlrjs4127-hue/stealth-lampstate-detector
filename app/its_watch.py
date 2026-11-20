@@ -69,6 +69,8 @@ def run(frames_dir: Path, detector: str, state_weights: str | None, out_dir: Pat
     off_idx = [k for k, v in names.items() if v == "off"][0] if isinstance(names, dict) else names.index("off")
 
     judge = EventJudge(EventConfig())
+    _ckpt = getattr(det, "ckpt_path", "?")
+    print("[model] detector=%s weights=%s names=%s" % (det_name, _ckpt, det.names))
     frames = sorted([p for p in frames_dir.rglob("*") if p.suffix.lower() in (".png", ".jpg")])
     if not frames:
         print(json.dumps({"error": f"no frames in {frames_dir}"})); return
@@ -109,7 +111,7 @@ def run(frames_dir: Path, detector: str, state_weights: str | None, out_dir: Pat
             pr = clf.predict(crop, imgsz=160, device=0, verbose=False, workers=0)[0].probs
             p_off = float(pr.data[off_idx])
             ent = entropy_of(pr.data.tolist())
-            judge.observe(f"{cam}/{fp.name}", (x1, y1, x2, y2), p_off, ent, w)
+            judge.observe(f"{cam}/{fp.name}", (x1, y1, x2, y2), p_off, ent, w, camera=cam)
             nobs += 1
             # 주석
             col = (60, 60, 235) if p_off >= 0.5 else (60, 190, 90)
@@ -196,5 +198,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
