@@ -1,0 +1,31 @@
+{
+  "val_mAP50": 0.9609,
+  "val_mAP50_95": 0.8553,
+  "val_precision": 0.9637,
+  "val_recall": 0.9242,
+  "composites": 50,
+  "eval_frames": 51,
+  "eval_by_conf": {
+    "0.25": {
+      "normal": 119,
+      "stealth": 0,
+      "frames_hit": 49,
+      "frame_hit_rate": 0.9608
+    },
+    "0.4": {
+      "normal": 102,
+      "stealth": 0,
+      "frames_hit": 49,
+      "frame_hit_rate": 0.9608
+    },
+    "0.6": {
+      "normal": 77,
+      "stealth": 0,
+      "frames_hit": 46,
+      "frame_hit_rate": 0.902
+    }
+  },
+  "stealth_candidates_at_025": 0,
+  "annotated": 16,
+  "best": "D:\\Cache\\stealth_w4\\exp5\\runs\\exp5\\weights\\best.pt"
+}

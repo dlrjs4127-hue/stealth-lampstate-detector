@@ -1,0 +1,956 @@
+{
+ "count": 50,
+ "failed": 27,
+ "items": [
+  {
+   "id": "000",
+   "frame": "frame_0047.jpg",
+   "car": "car_00",
+   "profile": "base",
+   "box": [
+    281,
+    298,
+    368,
+    368
+   ],
+   "seam": 1.76,
+   "bright_ratio": 0.37,
+   "aspect": 1.24,
+   "size": [
+    87,
+    70
+   ]
+  },
+  {
+   "id": "001",
+   "frame": "frame_0057.jpg",
+   "car": "car_01",
+   "profile": "dark",
+   "box": [
+    226,
+    267,
+    306,
+    340
+   ],
+   "seam": 1.87,
+   "bright_ratio": 0.35,
+   "aspect": 1.1,
+   "size": [
+    80,
+    73
+   ]
+  },
+  {
+   "id": "002",
+   "frame": "frame_0067.jpg",
+   "car": "car_02",
+   "profile": "gamma",
+   "box": [
+    325,
+    308,
+    413,
+    370
+   ],
+   "seam": 1.94,
+   "bright_ratio": 0.36,
+   "aspect": 1.42,
+   "size": [
+    88,
+    62
+   ]
+  },
+  {
+   "id": "003",
+   "frame": "frame_0068.jpg",
+   "car": "car_03",
+   "profile": "cool",
+   "box": [
+    557,
+    238,
+    624,
+    286
+   ],
+   "seam": 1.8,
+   "bright_ratio": 0.38,
+   "aspect": 1.4,
+   "size": [
+    67,
+    48
+   ]
+  },
+  {
+   "id": "004",
+   "frame": "frame_0071.jpg",
+   "car": "car_04",
+   "profile": "warm",
+   "box": [
+    361,
+    296,
+    450,
+    375
+   ],
+   "seam": 1.16,
+   "bright_ratio": 0.38,
+   "aspect": 1.13,
+   "size": [
+    89,
+    79
+   ]
+  },
+  {
+   "id": "005",
+   "frame": "frame_0077.jpg",
+   "car": "car_05",
+   "profile": "base",
+   "box": [
+    259,
+    241,
+    327,
+    287
+   ],
+   "seam": 1.9,
+   "bright_ratio": 0.36,
+   "aspect": 1.48,
+   "size": [
+    68,
+    46
+   ]
+  },
+  {
+   "id": "006",
+   "frame": "frame_0078.jpg",
+   "car": "car_06",
+   "profile": "dark",
+   "box": [
+    94,
+    337,
+    188,
+    398
+   ],
+   "seam": 1.89,
+   "bright_ratio": 0.38,
+   "aspect": 1.54,
+   "size": [
+    94,
+    61
+   ]
+  },
+  {
+   "id": "007",
+   "frame": "frame_0081.jpg",
+   "car": "car_07",
+   "profile": "gamma",
+   "box": [
+    523,
+    312,
+    609,
+    365
+   ],
+   "seam": 1.18,
+   "bright_ratio": 0.39,
+   "aspect": 1.62,
+   "size": [
+    86,
+    53
+   ]
+  },
+  {
+   "id": "008",
+   "frame": "frame_0087.jpg",
+   "car": "car_08",
+   "profile": "cool",
+   "box": [
+    42,
+    320,
+    132,
+    382
+   ],
+   "seam": 1.46,
+   "bright_ratio": 0.36,
+   "aspect": 1.45,
+   "size": [
+    90,
+    62
+   ]
+  },
+  {
+   "id": "009",
+   "frame": "frame_0088.jpg",
+   "car": "car_09",
+   "profile": "warm",
+   "box": [
+    372,
+    278,
+    449,
+    326
+   ],
+   "seam": 1.69,
+   "bright_ratio": 0.38,
+   "aspect": 1.6,
+   "size": [
+    77,
+    48
+   ]
+  },
+  {
+   "id": "010",
+   "frame": "frame_0091.jpg",
+   "car": "car_10",
+   "profile": "base",
+   "box": [
+    331,
+    349,
+    428,
+    411
+   ],
+   "seam": 1.21,
+   "bright_ratio": 0.59,
+   "aspect": 1.56,
+   "size": [
+    97,
+    62
+   ]
+  },
+  {
+   "id": "011",
+   "frame": "frame_0095.jpg",
+   "car": "car_11",
+   "profile": "dark",
+   "box": [
+    416,
+    224,
+    478,
+    265
+   ],
+   "seam": 1.65,
+   "bright_ratio": 0.41,
+   "aspect": 1.51,
+   "size": [
+    62,
+    41
+   ]
+  },
+  {
+   "id": "012",
+   "frame": "frame_0047.jpg",
+   "car": "car_12",
+   "profile": "gamma",
+   "box": [
+    393,
+    233,
+    460,
+    284
+   ],
+   "seam": 1.99,
+   "bright_ratio": 0.35,
+   "aspect": 1.31,
+   "size": [
+    67,
+    51
+   ]
+  },
+  {
+   "id": "013",
+   "frame": "frame_0057.jpg",
+   "car": "car_13",
+   "profile": "cool",
+   "box": [
+    609,
+    271,
+    687,
+    331
+   ],
+   "seam": 1.52,
+   "bright_ratio": 0.5,
+   "aspect": 1.3,
+   "size": [
+    78,
+    60
+   ]
+  },
+  {
+   "id": "014",
+   "frame": "frame_0067.jpg",
+   "car": "car_14",
+   "profile": "warm",
+   "box": [
+    476,
+    334,
+    572,
+    404
+   ],
+   "seam": 1.56,
+   "bright_ratio": 0.37,
+   "aspect": 1.37,
+   "size": [
+    96,
+    70
+   ]
+  },
+  {
+   "id": "015",
+   "frame": "frame_0068.jpg",
+   "car": "car_15",
+   "profile": "base",
+   "box": [
+    279,
+    298,
+    369,
+    378
+   ],
+   "seam": 1.77,
+   "bright_ratio": 0.53,
+   "aspect": 1.12,
+   "size": [
+    90,
+    80
+   ]
+  },
+  {
+   "id": "016",
+   "frame": "frame_0071.jpg",
+   "car": "car_16",
+   "profile": "dark",
+   "box": [
+    200,
+    310,
+    294,
+    396
+   ],
+   "seam": 1.84,
+   "bright_ratio": 0.47,
+   "aspect": 1.09,
+   "size": [
+    94,
+    86
+   ]
+  },
+  {
+   "id": "017",
+   "frame": "frame_0077.jpg",
+   "car": "car_17",
+   "profile": "gamma",
+   "box": [
+    284,
+    269,
+    360,
+    322
+   ],
+   "seam": 1.79,
+   "bright_ratio": 0.35,
+   "aspect": 1.43,
+   "size": [
+    76,
+    53
+   ]
+  },
+  {
+   "id": "018",
+   "frame": "frame_0078.jpg",
+   "car": "car_18",
+   "profile": "cool",
+   "box": [
+    217,
+    326,
+    310,
+    391
+   ],
+   "seam": 2.03,
+   "bright_ratio": 0.35,
+   "aspect": 1.43,
+   "size": [
+    93,
+    65
+   ]
+  },
+  {
+   "id": "019",
+   "frame": "frame_0081.jpg",
+   "car": "car_19",
+   "profile": "warm",
+   "box": [
+    316,
+    316,
+    406,
+    378
+   ],
+   "seam": 1.85,
+   "bright_ratio": 0.51,
+   "aspect": 1.45,
+   "size": [
+    90,
+    62
+   ]
+  },
+  {
+   "id": "020",
+   "frame": "frame_0087.jpg",
+   "car": "car_20",
+   "profile": "base",
+   "box": [
+    494,
+    299,
+    578,
+    356
+   ],
+   "seam": 1.25,
+   "bright_ratio": 0.48,
+   "aspect": 1.47,
+   "size": [
+    84,
+    57
+   ]
+  },
+  {
+   "id": "021",
+   "frame": "frame_0088.jpg",
+   "car": "car_21",
+   "profile": "dark",
+   "box": [
+    495,
+    287,
+    579,
+    356
+   ],
+   "seam": 1.07,
+   "bright_ratio": 0.4,
+   "aspect": 1.22,
+   "size": [
+    84,
+    69
+   ]
+  },
+  {
+   "id": "022",
+   "frame": "frame_0091.jpg",
+   "car": "car_22",
+   "profile": "gamma",
+   "box": [
+    448,
+    291,
+    529,
+    343
+   ],
+   "seam": 1.67,
+   "bright_ratio": 0.45,
+   "aspect": 1.56,
+   "size": [
+    81,
+    52
+   ]
+  },
+  {
+   "id": "023",
+   "frame": "frame_0095.jpg",
+   "car": "car_23",
+   "profile": "cool",
+   "box": [
+    612,
+    268,
+    691,
+    333
+   ],
+   "seam": 1.3,
+   "bright_ratio": 0.43,
+   "aspect": 1.22,
+   "size": [
+    79,
+    65
+   ]
+  },
+  {
+   "id": "024",
+   "frame": "frame_0047.jpg",
+   "car": "car_00",
+   "profile": "warm",
+   "box": [
+    489,
+    229,
+    555,
+    280
+   ],
+   "seam": 1.52,
+   "bright_ratio": 0.37,
+   "aspect": 1.29,
+   "size": [
+    66,
+    51
+   ]
+  },
+  {
+   "id": "025",
+   "frame": "frame_0057.jpg",
+   "car": "car_01",
+   "profile": "base",
+   "box": [
+    53,
+    325,
+    147,
+    397
+   ],
+   "seam": 1.51,
+   "bright_ratio": 0.35,
+   "aspect": 1.31,
+   "size": [
+    94,
+    72
+   ]
+  },
+  {
+   "id": "026",
+   "frame": "frame_0067.jpg",
+   "car": "car_02",
+   "profile": "dark",
+   "box": [
+    543,
+    261,
+    615,
+    306
+   ],
+   "seam": 1.54,
+   "bright_ratio": 0.38,
+   "aspect": 1.6,
+   "size": [
+    72,
+    45
+   ]
+  },
+  {
+   "id": "027",
+   "frame": "frame_0068.jpg",
+   "car": "car_03",
+   "profile": "gamma",
+   "box": [
+    397,
+    232,
+    463,
+    279
+   ],
+   "seam": 2.0,
+   "bright_ratio": 0.42,
+   "aspect": 1.4,
+   "size": [
+    66,
+    47
+   ]
+  },
+  {
+   "id": "028",
+   "frame": "frame_0071.jpg",
+   "car": "car_04",
+   "profile": "cool",
+   "box": [
+    79,
+    323,
+    176,
+    411
+   ],
+   "seam": 1.47,
+   "bright_ratio": 0.38,
+   "aspect": 1.1,
+   "size": [
+    97,
+    88
+   ]
+  },
+  {
+   "id": "029",
+   "frame": "frame_0077.jpg",
+   "car": "car_05",
+   "profile": "warm",
+   "box": [
+    355,
+    249,
+    427,
+    305
+   ],
+   "seam": 1.56,
+   "bright_ratio": 0.37,
+   "aspect": 1.29,
+   "size": [
+    72,
+    56
+   ]
+  },
+  {
+   "id": "030",
+   "frame": "frame_0078.jpg",
+   "car": "car_06",
+   "profile": "base",
+   "box": [
+    391,
+    333,
+    491,
+    421
+   ],
+   "seam": 1.32,
+   "bright_ratio": 0.43,
+   "aspect": 1.14,
+   "size": [
+    100,
+    88
+   ]
+  },
+  {
+   "id": "031",
+   "frame": "frame_0081.jpg",
+   "car": "car_07",
+   "profile": "dark",
+   "box": [
+    324,
+    288,
+    406,
+    347
+   ],
+   "seam": 1.54,
+   "bright_ratio": 0.37,
+   "aspect": 1.39,
+   "size": [
+    82,
+    59
+   ]
+  },
+  {
+   "id": "032",
+   "frame": "frame_0087.jpg",
+   "car": "car_08",
+   "profile": "gamma",
+   "box": [
+    509,
+    298,
+    593,
+    353
+   ],
+   "seam": 1.01,
+   "bright_ratio": 0.4,
+   "aspect": 1.53,
+   "size": [
+    84,
+    55
+   ]
+  },
+  {
+   "id": "033",
+   "frame": "frame_0088.jpg",
+   "car": "car_09",
+   "profile": "cool",
+   "box": [
+    383,
+    346,
+    482,
+    416
+   ],
+   "seam": 1.08,
+   "bright_ratio": 0.38,
+   "aspect": 1.41,
+   "size": [
+    99,
+    70
+   ]
+  },
+  {
+   "id": "034",
+   "frame": "frame_0091.jpg",
+   "car": "car_10",
+   "profile": "warm",
+   "box": [
+    350,
+    234,
+    416,
+    282
+   ],
+   "seam": 1.38,
+   "bright_ratio": 0.46,
+   "aspect": 1.38,
+   "size": [
+    66,
+    48
+   ]
+  },
+  {
+   "id": "035",
+   "frame": "frame_0095.jpg",
+   "car": "car_11",
+   "profile": "base",
+   "box": [
+    565,
+    229,
+    632,
+    284
+   ],
+   "seam": 1.4,
+   "bright_ratio": 0.44,
+   "aspect": 1.22,
+   "size": [
+    67,
+    55
+   ]
+  },
+  {
+   "id": "036",
+   "frame": "frame_0047.jpg",
+   "car": "car_12",
+   "profile": "dark",
+   "box": [
+    434,
+    243,
+    506,
+    303
+   ],
+   "seam": 1.51,
+   "bright_ratio": 0.37,
+   "aspect": 1.2,
+   "size": [
+    72,
+    60
+   ]
+  },
+  {
+   "id": "037",
+   "frame": "frame_0057.jpg",
+   "car": "car_13",
+   "profile": "gamma",
+   "box": [
+    319,
+    302,
+    407,
+    373
+   ],
+   "seam": 1.58,
+   "bright_ratio": 0.42,
+   "aspect": 1.24,
+   "size": [
+    88,
+    71
+   ]
+  },
+  {
+   "id": "038",
+   "frame": "frame_0067.jpg",
+   "car": "car_14",
+   "profile": "cool",
+   "box": [
+    579,
+    240,
+    646,
+    286
+   ],
+   "seam": 1.82,
+   "bright_ratio": 0.37,
+   "aspect": 1.46,
+   "size": [
+    67,
+    46
+   ]
+  },
+  {
+   "id": "039",
+   "frame": "frame_0068.jpg",
+   "car": "car_15",
+   "profile": "warm",
+   "box": [
+    391,
+    238,
+    458,
+    283
+   ],
+   "seam": 1.98,
+   "bright_ratio": 0.75,
+   "aspect": 1.49,
+   "size": [
+    67,
+    45
+   ]
+  },
+  {
+   "id": "040",
+   "frame": "frame_0071.jpg",
+   "car": "car_16",
+   "profile": "base",
+   "box": [
+    599,
+    323,
+    696,
+    409
+   ],
+   "seam": 1.26,
+   "bright_ratio": 0.49,
+   "aspect": 1.13,
+   "size": [
+    97,
+    86
+   ]
+  },
+  {
+   "id": "041",
+   "frame": "frame_0077.jpg",
+   "car": "car_17",
+   "profile": "dark",
+   "box": [
+    38,
+    328,
+    131,
+    391
+   ],
+   "seam": 1.42,
+   "bright_ratio": 0.42,
+   "aspect": 1.48,
+   "size": [
+    93,
+    63
+   ]
+  },
+  {
+   "id": "042",
+   "frame": "frame_0078.jpg",
+   "car": "car_18",
+   "profile": "gamma",
+   "box": [
+    455,
+    325,
+    552,
+    410
+   ],
+   "seam": 1.28,
+   "bright_ratio": 0.37,
+   "aspect": 1.14,
+   "size": [
+    97,
+    85
+   ]
+  },
+  {
+   "id": "043",
+   "frame": "frame_0081.jpg",
+   "car": "car_19",
+   "profile": "cool",
+   "box": [
+    322,
+    235,
+    388,
+    282
+   ],
+   "seam": 1.56,
+   "bright_ratio": 0.5,
+   "aspect": 1.4,
+   "size": [
+    66,
+    47
+   ]
+  },
+  {
+   "id": "044",
+   "frame": "frame_0087.jpg",
+   "car": "car_20",
+   "profile": "warm",
+   "box": [
+    483,
+    210,
+    546,
+    267
+   ],
+   "seam": 1.41,
+   "bright_ratio": 0.42,
+   "aspect": 1.11,
+   "size": [
+    63,
+    57
+   ]
+  },
+  {
+   "id": "045",
+   "frame": "frame_0088.jpg",
+   "car": "car_21",
+   "profile": "base",
+   "box": [
+    452,
+    259,
+    528,
+    320
+   ],
+   "seam": 1.42,
+   "bright_ratio": 0.36,
+   "aspect": 1.25,
+   "size": [
+    76,
+    61
+   ]
+  },
+  {
+   "id": "046",
+   "frame": "frame_0091.jpg",
+   "car": "car_22",
+   "profile": "dark",
+   "box": [
+    508,
+    279,
+    588,
+    338
+   ],
+   "seam": 1.26,
+   "bright_ratio": 0.38,
+   "aspect": 1.36,
+   "size": [
+    80,
+    59
+   ]
+  },
+  {
+   "id": "047",
+   "frame": "frame_0095.jpg",
+   "car": "car_23",
+   "profile": "gamma",
+   "box": [
+    68,
+    218,
+    132,
+    272
+   ],
+   "seam": 2.02,
+   "bright_ratio": 0.42,
+   "aspect": 1.19,
+   "size": [
+    64,
+    54
+   ]
+  },
+  {
+   "id": "048",
+   "frame": "frame_0047.jpg",
+   "car": "car_00",
+   "profile": "cool",
+   "box": [
+    552,
+    233,
+    617,
+    276
+   ],
+   "seam": 1.58,
+   "bright_ratio": 0.38,
+   "aspect": 1.51,
+   "size": [
+    65,
+    43
+   ]
+  },
+  {
+   "id": "049",
+   "frame": "frame_0057.jpg",
+   "car": "car_01",
+   "profile": "warm",
+   "box": [
+    478,
+    324,
+    568,
+    380
+   ],
+   "seam": 1.16,
+   "bright_ratio": 0.39,
+   "aspect": 1.61,
+   "size": [
+    90,
+    56
+   ]
+  }
+ ]
+}
