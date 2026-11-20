@@ -1,0 +1,45 @@
+{
+  "test_frames": 15,
+  "results": {
+    "clean": {
+      "frames": 15,
+      "vehicles": 37,
+      "stealth_candidates": 0,
+      "latency_mean_ms": 50.9,
+      "latency_p90_ms": 22.9,
+      "vehicle_retention_vs_clean": 1.0
+    },
+    "blur": {
+      "frames": 15,
+      "vehicles": 30,
+      "stealth_candidates": 1,
+      "latency_mean_ms": 11.9,
+      "latency_p90_ms": 15.9,
+      "vehicle_retention_vs_clean": 0.811
+    },
+    "shake": {
+      "frames": 15,
+      "vehicles": 35,
+      "stealth_candidates": 0,
+      "latency_mean_ms": 15.1,
+      "latency_p90_ms": 20.1,
+      "vehicle_retention_vs_clean": 0.946
+    },
+    "jpeg": {
+      "frames": 15,
+      "vehicles": 30,
+      "stealth_candidates": 0,
+      "latency_mean_ms": 12.7,
+      "latency_p90_ms": 16.7,
+      "vehicle_retention_vs_clean": 0.811
+    },
+    "noise": {
+      "frames": 15,
+      "vehicles": 42,
+      "stealth_candidates": 0,
+      "latency_mean_ms": 16.3,
+      "latency_p90_ms": 19.9,
+      "vehicle_retention_vs_clean": 1.135
+    }
+  }
+}
