@@ -1,0 +1,51 @@
+{
+  "split": {
+    "train_frames": 26,
+    "val_frames": 10,
+    "test_frames": 15,
+    "overlap_train_val": 0,
+    "overlap_train_test": 0,
+    "overlap_val_test": 0
+  },
+  "stage1": {
+    "comp_train": 85,
+    "comp_val": 40,
+    "real_train": 26,
+    "train_seconds": 299.4,
+    "mAP50": 0.7808,
+    "mAP50_95": 0.6711,
+    "precision": 0.8669,
+    "recall": 0.6946,
+    "per_class_map50": {
+      "normal": 0.4249,
+      "stealth": 0.9173
+    }
+  },
+  "stage2": {
+    "pairs": 628,
+    "syn_off": 124,
+    "real_on": 44,
+    "top1": 1.0,
+    "top5": 1.0
+  },
+  "pipeline_on_test_frames": {
+    "tau_0.25_0.5": {
+      "frames": 15,
+      "vehicles": 40,
+      "stealth_candidates": 0,
+      "latency_mean_ms": 25.2,
+      "latency_p90_ms": 28.2
+    },
+    "tau_0.40_0.6": {
+      "frames": 15,
+      "vehicles": 40,
+      "stealth_candidates": 0,
+      "latency_mean_ms": 20.4,
+      "latency_p90_ms": 27.4
+    }
+  },
+  "weights": {
+    "stage1": "D:\\Cache\\stealth_w4\\final2\\runs\\s1\\weights\\best.pt",
+    "stage2": "D:\\Cache\\stealth_w4\\final2\\runs\\s2\\weights\\best.pt"
+  }
+}
