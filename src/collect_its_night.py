@@ -69,7 +69,7 @@ def main():
     args = ap.parse_args()
 
     now = datetime.now()
-    if args.night_only and not (now.hour >= 20 or now.hour <= 5):
+    if args.night_only and not (now.hour >= 18 or now.hour <= 5):
         print(f"[skip] 낮 시간대({now:%H:%M})에는 수집하지 않습니다. --night-only 해제 시 강제 수집.")
         if not os.environ.get("FORCE_DAY"):
             return
@@ -139,3 +139,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

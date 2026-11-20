@@ -69,3 +69,15 @@
 - 지연: clean 11.9ms, 열화 12.7~16.3ms (p90 20.1ms 이하), 기준 50ms 이내
 - 대응: 모션블러/저화질/노이즈 증강 추가, 1fps 샘플링 + 3프레임 지속 알림
 
+
+## 10. 실행 프로그램 구조 (app/)
+- app/models.py: 검출기/상태판정기 슬롯(교체 가능)
+- app/judge.py: 트랙 단위 이벤트 판정(EWMA 누적, 진입/해제 히스테리시스, UNKNOWN 라우팅)
+- app/its_watch.py: collect/rub 모드, 알림 JSONL + HTML 리포트
+- 실측(36프레임): 지연 41~55ms, 알림 1건(오탐). 오버레이 가드로 관측 147->118
+
+## 11. 파운데이션 특징 실험(DINOv2) 결과
+- DINOv2-S/14 동결 + linear probe: clean 0.726 (F1 0.771, ECE 0.115), jpeg35 0.578
+- 동일 val에서 YOLOv8n-cls: clean 1.000, jpeg 0.947 → 작은 램프 신호에는 특화 CNN이 우세
+- 결론: 파운데이션 도입 자체가 아니라 (a) ROI 균형 합성 (b) 이벤트 판정/UNKNOWN/캘리브레이션 (c) 시스템 통합이 기여 지점
+

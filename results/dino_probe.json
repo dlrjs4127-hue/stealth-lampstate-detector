@@ -1,0 +1,67 @@
+{
+  "dino": [
+    {
+      "split": "clean",
+      "n": 303,
+      "acc": 0.7261,
+      "f1_off": 0.7713,
+      "precision_off": 0.6306,
+      "recall_off": 0.9929,
+      "ece": 0.1146
+    }
+  ],
+  "dino_degraded": [
+    {
+      "split": "blur",
+      "n": 303,
+      "acc": 0.7228,
+      "f1_off": 0.7558,
+      "precision_off": 0.6404,
+      "recall_off": 0.922,
+      "ece": 0.1339
+    },
+    {
+      "split": "jpeg",
+      "n": 303,
+      "acc": 0.5776,
+      "f1_off": 0.68,
+      "precision_off": 0.5251,
+      "recall_off": 0.9645,
+      "ece": 0.0761
+    },
+    {
+      "split": "lowlight",
+      "n": 303,
+      "acc": 0.7426,
+      "f1_off": 0.7797,
+      "precision_off": 0.6479,
+      "recall_off": 0.9787,
+      "ece": 0.1354
+    }
+  ],
+  "n_train": 1096,
+  "n_val": 303,
+  "syn_off": 143,
+  "yolov8n_cls": [
+    {
+      "split": "clean",
+      "n": 303,
+      "acc": 1.0
+    },
+    {
+      "split": "blur",
+      "n": 303,
+      "acc": 0.9934
+    },
+    {
+      "split": "jpeg",
+      "n": 303,
+      "acc": 0.9472
+    },
+    {
+      "split": "lowlight",
+      "n": 303,
+      "acc": 1.0
+    }
+  ]
+}

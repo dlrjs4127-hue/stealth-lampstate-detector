@@ -55,3 +55,11 @@
 - Stage-1 mAP50 0.781 (stealth 0.917 / normal 0.425), Stage-2 top1 1.000
 - 테스트 15프레임: 차량 40대 검출, 지연 20.4~25.2ms
 
+
+## 2026-11-20 (E10) ITS API 프로그램 + 이벤트 판정 + DINO linear probe
+- app/ 프로그램 구축: ITS Open API 수집 -> 검출 -> 상태판정 -> 이벤트 판정(EWMA+히스테리시스+UNKNOWN) -> 알림/HTML 리포트
+- 20:00 수집 36프레임(12 카메라) 실행: 관측 147 -> 오버레이 가드 후 118, 확정 알림 1건(자막 그림자 오탐), 지연 41~55ms
+- YOLO26n A/B: mAP50 0.790 / P 0.871 / R 0.728 (stealth 0.912 / normal 0.452) vs YOLOv8n 0.781/0.867/0.695
+- DINOv2-S/14 동결특징 + ridge probe: clean 0.726 / blur 0.723 / jpeg35 0.578 / lowlight 0.743, ECE 0.11~0.14
+- 동일 val 크롭에서 YOLOv8n-cls: clean 1.000 / blur 0.993 / jpeg 0.947 / lowlight 1.000 → 파운데이션 특징이 이 과제에서 열세
+
