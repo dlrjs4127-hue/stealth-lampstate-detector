@@ -1,0 +1,2367 @@
+{
+ "made": 98,
+ "skipped": [
+  [
+   "n032",
+   "no_car"
+  ],
+  [
+   "n085",
+   "no_car"
+  ]
+ ],
+ "items": [
+  {
+   "id": "s000",
+   "roi": "n000",
+   "camera": "[경부선] 금현동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 금현동\\frame_00.png",
+   "roi_box": [
+    18,
+    309,
+    178,
+    429
+   ],
+   "car_box": [
+    69,
+    341,
+    142,
+    390
+   ],
+   "width_px": 73,
+   "outside_changed_px": 0,
+   "type": "sedan",
+   "color": "black",
+   "view": "rear",
+   "light": "very dark"
+  },
+  {
+   "id": "s001",
+   "roi": "n001",
+   "camera": "[경부선] 금현동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 금현동\\frame_01.png",
+   "roi_box": [
+    539,
+    307,
+    719,
+    442
+   ],
+   "car_box": [
+    548,
+    337,
+    586,
+    376
+   ],
+   "width_px": 38,
+   "outside_changed_px": 0,
+   "type": "SUV",
+   "color": "black",
+   "view": "rear",
+   "light": "very dark"
+  },
+  {
+   "id": "s002",
+   "roi": "n002",
+   "camera": "[경부선] 금현동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 금현동\\frame_02.png",
+   "roi_box": [
+    104,
+    261,
+    264,
+    381
+   ],
+   "car_box": [
+    158,
+    274,
+    225,
+    324
+   ],
+   "width_px": 67,
+   "outside_changed_px": 0,
+   "type": "minivan",
+   "color": "black",
+   "view": "rear",
+   "light": "very dark"
+  },
+  {
+   "id": "s003",
+   "roi": "n003",
+   "camera": "[경부선] 달래내1",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 달래내1\\frame_00.png",
+   "roi_box": [
+    149,
+    238,
+    309,
+    358
+   ],
+   "car_box": [
+    219,
+    245,
+    252,
+    267
+   ],
+   "width_px": 33,
+   "outside_changed_px": 0,
+   "type": "hatchback",
+   "color": "black",
+   "view": "rear three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s004",
+   "roi": "n004",
+   "camera": "[경부선] 달래내1",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 달래내1\\frame_01.png",
+   "roi_box": [
+    0,
+    326,
+    200,
+    476
+   ],
+   "car_box": [
+    116,
+    392,
+    178,
+    437
+   ],
+   "width_px": 62,
+   "outside_changed_px": 0,
+   "type": "pickup",
+   "color": "black",
+   "view": "rear three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s005",
+   "roi": "n005",
+   "camera": "[경부선] 달래내1",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 달래내1\\frame_02.png",
+   "roi_box": [
+    260,
+    279,
+    480,
+    444
+   ],
+   "car_box": [
+    317,
+    291,
+    441,
+    409
+   ],
+   "width_px": 124,
+   "outside_changed_px": 0,
+   "type": "box truck",
+   "color": "black",
+   "view": "rear three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s006",
+   "roi": "n006",
+   "camera": "[경부선] 달래내2",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 달래내2\\frame_00.png",
+   "roi_box": [
+    307,
+    284,
+    527,
+    449
+   ],
+   "car_box": [
+    360,
+    285,
+    415,
+    337
+   ],
+   "width_px": 55,
+   "outside_changed_px": 0,
+   "type": "city bus",
+   "color": "black",
+   "view": "front",
+   "light": "very dark"
+  },
+  {
+   "id": "s007",
+   "roi": "n007",
+   "camera": "[경부선] 달래내2",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 달래내2\\frame_01.png",
+   "roi_box": [
+    366,
+    290,
+    586,
+    455
+   ],
+   "car_box": [
+    430,
+    326,
+    473,
+    354
+   ],
+   "width_px": 43,
+   "outside_changed_px": 0,
+   "type": "sports coupe",
+   "color": "black",
+   "view": "front",
+   "light": "moderate street"
+  },
+  {
+   "id": "s008",
+   "roi": "n008",
+   "camera": "[경부선] 달래내2",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 달래내2\\frame_02.png",
+   "roi_box": [
+    391,
+    286,
+    611,
+    451
+   ],
+   "car_box": [
+    408,
+    326,
+    450,
+    363
+   ],
+   "width_px": 42,
+   "outside_changed_px": 0,
+   "type": "taxi",
+   "color": "black",
+   "view": "front",
+   "light": "moderate street"
+  },
+  {
+   "id": "s009",
+   "roi": "n009",
+   "camera": "[경부선] 삼평터널(서울)",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 삼평터널(서울)\\frame_00.png",
+   "roi_box": [
+    339,
+    296,
+    499,
+    416
+   ],
+   "car_box": [
+    408,
+    305,
+    474,
+    357
+   ],
+   "width_px": 66,
+   "outside_changed_px": 0,
+   "type": "compact car",
+   "color": "black",
+   "view": "front three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s010",
+   "roi": "n010",
+   "camera": "[경부선] 삼평터널(서울)",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 삼평터널(서울)\\frame_01.png",
+   "roi_box": [
+    205,
+    252,
+    385,
+    387
+   ],
+   "car_box": [
+    246,
+    260,
+    330,
+    313
+   ],
+   "width_px": 84,
+   "outside_changed_px": 0,
+   "type": "sedan",
+   "color": "dark navy",
+   "view": "front three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s011",
+   "roi": "n011",
+   "camera": "[경부선] 삼평터널(서울)",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 삼평터널(서울)\\frame_02.png",
+   "roi_box": [
+    0,
+    329,
+    200,
+    479
+   ],
+   "car_box": [
+    29,
+    345,
+    114,
+    418
+   ],
+   "width_px": 85,
+   "outside_changed_px": 0,
+   "type": "SUV",
+   "color": "dark navy",
+   "view": "front three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s012",
+   "roi": "n012",
+   "camera": "[경부선] 상적교",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 상적교\\frame_00.png",
+   "roi_box": [
+    519,
+    317,
+    719,
+    467
+   ],
+   "car_box": [
+    596,
+    361,
+    644,
+    395
+   ],
+   "width_px": 48,
+   "outside_changed_px": 0,
+   "type": "minivan",
+   "color": "dark navy",
+   "view": "rear",
+   "light": "moderate street"
+  },
+  {
+   "id": "s013",
+   "roi": "n013",
+   "camera": "[경부선] 상적교",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 상적교\\frame_01.png",
+   "roi_box": [
+    92,
+    234,
+    292,
+    384
+   ],
+   "car_box": [
+    175,
+    274,
+    201,
+    298
+   ],
+   "width_px": 26,
+   "outside_changed_px": 0,
+   "type": "hatchback",
+   "color": "dark navy",
+   "view": "rear",
+   "light": "moderate street"
+  },
+  {
+   "id": "s014",
+   "roi": "n014",
+   "camera": "[경부선] 상적교",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 상적교\\frame_02.png",
+   "roi_box": [
+    337,
+    247,
+    537,
+    397
+   ],
+   "car_box": [
+    401,
+    272,
+    444,
+    299
+   ],
+   "width_px": 43,
+   "outside_changed_px": 0,
+   "type": "pickup",
+   "color": "dark navy",
+   "view": "rear",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s015",
+   "roi": "n015",
+   "camera": "[경부선] 서초",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 서초\\frame_00.png",
+   "roi_box": [
+    347,
+    338,
+    527,
+    473
+   ],
+   "car_box": [
+    406,
+    351,
+    512,
+    435
+   ],
+   "width_px": 106,
+   "outside_changed_px": 0,
+   "type": "box truck",
+   "color": "dark navy",
+   "view": "rear three-quarter",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s016",
+   "roi": "n016",
+   "camera": "[경부선] 서초",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 서초\\frame_01.png",
+   "roi_box": [
+    281,
+    259,
+    441,
+    379
+   ],
+   "car_box": [
+    314,
+    275,
+    418,
+    348
+   ],
+   "width_px": 104,
+   "outside_changed_px": 0,
+   "type": "city bus",
+   "color": "dark navy",
+   "view": "rear three-quarter",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s017",
+   "roi": "n017",
+   "camera": "[경부선] 서초",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 서초\\frame_02.png",
+   "roi_box": [
+    380,
+    233,
+    560,
+    368
+   ],
+   "car_box": [
+    484,
+    286,
+    525,
+    307
+   ],
+   "width_px": 41,
+   "outside_changed_px": 0,
+   "type": "sports coupe",
+   "color": "dark navy",
+   "view": "rear three-quarter",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s018",
+   "roi": "n018",
+   "camera": "[경부선] 양재",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 양재\\frame_00.png",
+   "roi_box": [
+    88,
+    238,
+    308,
+    403
+   ],
+   "car_box": [
+    225,
+    297,
+    257,
+    324
+   ],
+   "width_px": 32,
+   "outside_changed_px": 0,
+   "type": "taxi",
+   "color": "dark navy",
+   "view": "front",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s019",
+   "roi": "n019",
+   "camera": "[경부선] 양재",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 양재\\frame_01.png",
+   "roi_box": [
+    462,
+    248,
+    682,
+    413
+   ],
+   "car_box": [
+    545,
+    364,
+    564,
+    389
+   ],
+   "width_px": 19,
+   "outside_changed_px": 0,
+   "type": "compact car",
+   "color": "dark navy",
+   "view": "front",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s020",
+   "roi": "n020",
+   "camera": "[경부선] 양재",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 양재\\frame_02.png",
+   "roi_box": [
+    499,
+    237,
+    719,
+    402
+   ],
+   "car_box": [
+    676,
+    264,
+    708,
+    294
+   ],
+   "width_px": 32,
+   "outside_changed_px": 0,
+   "type": "sedan",
+   "color": "dark gray",
+   "view": "front",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s021",
+   "roi": "n021",
+   "camera": "[경부선] 원지동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 원지동\\frame_00.png",
+   "roi_box": [
+    504,
+    352,
+    664,
+    472
+   ],
+   "car_box": [
+    543,
+    369,
+    588,
+    412
+   ],
+   "width_px": 45,
+   "outside_changed_px": 0,
+   "type": "SUV",
+   "color": "dark gray",
+   "view": "front three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s022",
+   "roi": "n022",
+   "camera": "[경부선] 원지동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 원지동\\frame_01.png",
+   "roi_box": [
+    16,
+    358,
+    176,
+    478
+   ],
+   "car_box": [
+    61,
+    365,
+    106,
+    396
+   ],
+   "width_px": 45,
+   "outside_changed_px": 0,
+   "type": "minivan",
+   "color": "dark gray",
+   "view": "front three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s023",
+   "roi": "n023",
+   "camera": "[경부선] 원지동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 원지동\\frame_02.png",
+   "roi_box": [
+    0,
+    314,
+    220,
+    479
+   ],
+   "car_box": [
+    108,
+    387,
+    154,
+    417
+   ],
+   "width_px": 46,
+   "outside_changed_px": 0,
+   "type": "hatchback",
+   "color": "dark gray",
+   "view": "front three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s024",
+   "roi": "n024",
+   "camera": "[경부선] 판교3",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 판교3\\frame_00.png",
+   "roi_box": [
+    0,
+    159,
+    220,
+    324
+   ],
+   "car_box": [
+    161,
+    270,
+    191,
+    292
+   ],
+   "width_px": 30,
+   "outside_changed_px": 0,
+   "type": "pickup",
+   "color": "dark gray",
+   "view": "rear",
+   "light": "hazy night"
+  },
+  {
+   "id": "s025",
+   "roi": "n025",
+   "camera": "[경부선] 판교3",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 판교3\\frame_01.png",
+   "roi_box": [
+    48,
+    175,
+    228,
+    310
+   ],
+   "car_box": [
+    159,
+    250,
+    206,
+    298
+   ],
+   "width_px": 47,
+   "outside_changed_px": 0,
+   "type": "box truck",
+   "color": "dark gray",
+   "view": "rear",
+   "light": "hazy night"
+  },
+  {
+   "id": "s026",
+   "roi": "n026",
+   "camera": "[경부선] 판교3",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 판교3\\frame_02.png",
+   "roi_box": [
+    0,
+    264,
+    220,
+    429
+   ],
+   "car_box": [
+    156,
+    313,
+    196,
+    347
+   ],
+   "width_px": 40,
+   "outside_changed_px": 0,
+   "type": "city bus",
+   "color": "dark gray",
+   "view": "rear",
+   "light": "hazy night"
+  },
+  {
+   "id": "s027",
+   "roi": "n027",
+   "camera": "[경부선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 판교분기점\\frame_00.png",
+   "roi_box": [
+    77,
+    235,
+    237,
+    355
+   ],
+   "car_box": [
+    143,
+    293,
+    202,
+    326
+   ],
+   "width_px": 59,
+   "outside_changed_px": 0,
+   "type": "sports coupe",
+   "color": "dark gray",
+   "view": "rear three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s028",
+   "roi": "n028",
+   "camera": "[경부선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 판교분기점\\frame_01.png",
+   "roi_box": [
+    425,
+    179,
+    605,
+    314
+   ],
+   "car_box": [
+    445,
+    259,
+    507,
+    289
+   ],
+   "width_px": 62,
+   "outside_changed_px": 0,
+   "type": "taxi",
+   "color": "dark gray",
+   "view": "rear three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s029",
+   "roi": "n029",
+   "camera": "[경부선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[경부선] 판교분기점\\frame_02.png",
+   "roi_box": [
+    530,
+    347,
+    690,
+    467
+   ],
+   "car_box": [
+    530,
+    349,
+    689,
+    465
+   ],
+   "width_px": 159,
+   "outside_changed_px": 0,
+   "type": "compact car",
+   "color": "dark gray",
+   "view": "rear three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s030",
+   "roi": "n030",
+   "camera": "[수도권제1순환선] 성남",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[수도권제1순환선] 성남\\frame_00.png",
+   "roi_box": [
+    20,
+    311,
+    240,
+    476
+   ],
+   "car_box": [
+    140,
+    361,
+    176,
+    395
+   ],
+   "width_px": 36,
+   "outside_changed_px": 0,
+   "type": "sedan",
+   "color": "white",
+   "view": "front",
+   "light": "very dark"
+  },
+  {
+   "id": "s031",
+   "roi": "n031",
+   "camera": "[수도권제1순환선] 성남",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[수도권제1순환선] 성남\\frame_01.png",
+   "roi_box": [
+    0,
+    192,
+    200,
+    342
+   ],
+   "car_box": [
+    119,
+    260,
+    145,
+    282
+   ],
+   "width_px": 26,
+   "outside_changed_px": 0,
+   "type": "SUV",
+   "color": "white",
+   "view": "front",
+   "light": "very dark"
+  },
+  {
+   "id": "s033",
+   "roi": "n033",
+   "camera": "[수도권제1순환선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[수도권제1순환선] 판교분기점\\frame_00.png",
+   "roi_box": [
+    333,
+    280,
+    533,
+    430
+   ],
+   "car_box": [
+    447,
+    303,
+    491,
+    341
+   ],
+   "width_px": 44,
+   "outside_changed_px": 0,
+   "type": "hatchback",
+   "color": "white",
+   "view": "front three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s034",
+   "roi": "n034",
+   "camera": "[수도권제1순환선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[수도권제1순환선] 판교분기점\\frame_01.png",
+   "roi_box": [
+    121,
+    359,
+    281,
+    479
+   ],
+   "car_box": [
+    126,
+    401,
+    155,
+    424
+   ],
+   "width_px": 29,
+   "outside_changed_px": 0,
+   "type": "pickup",
+   "color": "white",
+   "view": "front three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s035",
+   "roi": "n035",
+   "camera": "[수도권제1순환선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2000\\[수도권제1순환선] 판교분기점\\frame_02.png",
+   "roi_box": [
+    118,
+    329,
+    318,
+    479
+   ],
+   "car_box": [
+    165,
+    330,
+    272,
+    456
+   ],
+   "width_px": 107,
+   "outside_changed_px": 0,
+   "type": "box truck",
+   "color": "white",
+   "view": "front three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s036",
+   "roi": "n036",
+   "camera": "[경부선] 금현동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 금현동\\frame_00.png",
+   "roi_box": [
+    431,
+    219,
+    651,
+    384
+   ],
+   "car_box": [
+    515,
+    237,
+    553,
+    278
+   ],
+   "width_px": 38,
+   "outside_changed_px": 0,
+   "type": "city bus",
+   "color": "white",
+   "view": "rear",
+   "light": "moderate street"
+  },
+  {
+   "id": "s037",
+   "roi": "n037",
+   "camera": "[경부선] 금현동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 금현동\\frame_01.png",
+   "roi_box": [
+    371,
+    293,
+    531,
+    413
+   ],
+   "car_box": [
+    410,
+    293,
+    438,
+    319
+   ],
+   "width_px": 28,
+   "outside_changed_px": 0,
+   "type": "sports coupe",
+   "color": "white",
+   "view": "rear",
+   "light": "moderate street"
+  },
+  {
+   "id": "s038",
+   "roi": "n038",
+   "camera": "[경부선] 금현동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 금현동\\frame_02.png",
+   "roi_box": [
+    293,
+    344,
+    473,
+    479
+   ],
+   "car_box": [
+    388,
+    417,
+    424,
+    449
+   ],
+   "width_px": 36,
+   "outside_changed_px": 0,
+   "type": "taxi",
+   "color": "white",
+   "view": "rear",
+   "light": "moderate street"
+  },
+  {
+   "id": "s039",
+   "roi": "n039",
+   "camera": "[경부선] 달래내1",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 달래내1\\frame_00.png",
+   "roi_box": [
+    185,
+    235,
+    405,
+    400
+   ],
+   "car_box": [
+    288,
+    286,
+    322,
+    313
+   ],
+   "width_px": 34,
+   "outside_changed_px": 0,
+   "type": "compact car",
+   "color": "white",
+   "view": "rear three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s040",
+   "roi": "n040",
+   "camera": "[경부선] 달래내1",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 달래내1\\frame_01.png",
+   "roi_box": [
+    357,
+    258,
+    517,
+    378
+   ],
+   "car_box": [
+    448,
+    290,
+    491,
+    321
+   ],
+   "width_px": 43,
+   "outside_changed_px": 0,
+   "type": "sedan",
+   "color": "silver",
+   "view": "rear three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s041",
+   "roi": "n041",
+   "camera": "[경부선] 달래내1",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 달래내1\\frame_02.png",
+   "roi_box": [
+    375,
+    258,
+    535,
+    378
+   ],
+   "car_box": [
+    451,
+    286,
+    497,
+    322
+   ],
+   "width_px": 46,
+   "outside_changed_px": 0,
+   "type": "SUV",
+   "color": "silver",
+   "view": "rear three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s042",
+   "roi": "n042",
+   "camera": "[경부선] 달래내2",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 달래내2\\frame_00.png",
+   "roi_box": [
+    413,
+    359,
+    573,
+    479
+   ],
+   "car_box": [
+    527,
+    396,
+    563,
+    448
+   ],
+   "width_px": 36,
+   "outside_changed_px": 0,
+   "type": "minivan",
+   "color": "silver",
+   "view": "front",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s043",
+   "roi": "n043",
+   "camera": "[경부선] 달래내2",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 달래내2\\frame_01.png",
+   "roi_box": [
+    2,
+    301,
+    222,
+    466
+   ],
+   "car_box": [
+    132,
+    328,
+    170,
+    359
+   ],
+   "width_px": 38,
+   "outside_changed_px": 0,
+   "type": "hatchback",
+   "color": "silver",
+   "view": "front",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s044",
+   "roi": "n044",
+   "camera": "[경부선] 달래내2",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 달래내2\\frame_02.png",
+   "roi_box": [
+    186,
+    261,
+    406,
+    426
+   ],
+   "car_box": [
+    313,
+    294,
+    366,
+    342
+   ],
+   "width_px": 53,
+   "outside_changed_px": 0,
+   "type": "pickup",
+   "color": "silver",
+   "view": "front",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s045",
+   "roi": "n045",
+   "camera": "[경부선] 삼평터널(서울)",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 삼평터널(서울)\\frame_00.png",
+   "roi_box": [
+    539,
+    334,
+    719,
+    469
+   ],
+   "car_box": [
+    647,
+    336,
+    700,
+    405
+   ],
+   "width_px": 53,
+   "outside_changed_px": 0,
+   "type": "box truck",
+   "color": "silver",
+   "view": "front three-quarter",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s046",
+   "roi": "n046",
+   "camera": "[경부선] 삼평터널(서울)",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 삼평터널(서울)\\frame_01.png",
+   "roi_box": [
+    518,
+    188,
+    718,
+    338
+   ],
+   "car_box": [
+    540,
+    190,
+    631,
+    279
+   ],
+   "width_px": 91,
+   "outside_changed_px": 0,
+   "type": "city bus",
+   "color": "silver",
+   "view": "front three-quarter",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s047",
+   "roi": "n047",
+   "camera": "[경부선] 삼평터널(서울)",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 삼평터널(서울)\\frame_02.png",
+   "roi_box": [
+    255,
+    262,
+    435,
+    397
+   ],
+   "car_box": [
+    340,
+    291,
+    421,
+    345
+   ],
+   "width_px": 81,
+   "outside_changed_px": 0,
+   "type": "sports coupe",
+   "color": "silver",
+   "view": "front three-quarter",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s048",
+   "roi": "n048",
+   "camera": "[경부선] 상적교",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 상적교\\frame_00.png",
+   "roi_box": [
+    0,
+    219,
+    180,
+    354
+   ],
+   "car_box": [
+    119,
+    244,
+    143,
+    267
+   ],
+   "width_px": 24,
+   "outside_changed_px": 0,
+   "type": "taxi",
+   "color": "silver",
+   "view": "rear",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s049",
+   "roi": "n049",
+   "camera": "[경부선] 상적교",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 상적교\\frame_01.png",
+   "roi_box": [
+    37,
+    314,
+    257,
+    479
+   ],
+   "car_box": [
+    159,
+    366,
+    193,
+    399
+   ],
+   "width_px": 34,
+   "outside_changed_px": 0,
+   "type": "compact car",
+   "color": "silver",
+   "view": "rear",
+   "light": "hazy night"
+  },
+  {
+   "id": "s050",
+   "roi": "n050",
+   "camera": "[경부선] 상적교",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 상적교\\frame_02.png",
+   "roi_box": [
+    372,
+    209,
+    552,
+    344
+   ],
+   "car_box": [
+    442,
+    237,
+    473,
+    255
+   ],
+   "width_px": 31,
+   "outside_changed_px": 0,
+   "type": "sedan",
+   "color": "deep red",
+   "view": "rear",
+   "light": "hazy night"
+  },
+  {
+   "id": "s051",
+   "roi": "n051",
+   "camera": "[경부선] 서초",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 서초\\frame_00.png",
+   "roi_box": [
+    392,
+    276,
+    612,
+    441
+   ],
+   "car_box": [
+    515,
+    329,
+    560,
+    362
+   ],
+   "width_px": 45,
+   "outside_changed_px": 0,
+   "type": "SUV",
+   "color": "deep red",
+   "view": "rear three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s052",
+   "roi": "n052",
+   "camera": "[경부선] 서초",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 서초\\frame_01.png",
+   "roi_box": [
+    212,
+    287,
+    432,
+    452
+   ],
+   "car_box": [
+    322,
+    316,
+    389,
+    365
+   ],
+   "width_px": 67,
+   "outside_changed_px": 0,
+   "type": "minivan",
+   "color": "deep red",
+   "view": "rear three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s053",
+   "roi": "n053",
+   "camera": "[경부선] 서초",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 서초\\frame_02.png",
+   "roi_box": [
+    559,
+    359,
+    719,
+    479
+   ],
+   "car_box": [
+    635,
+    400,
+    681,
+    432
+   ],
+   "width_px": 46,
+   "outside_changed_px": 0,
+   "type": "hatchback",
+   "color": "deep red",
+   "view": "rear three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s054",
+   "roi": "n054",
+   "camera": "[경부선] 양재",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 양재\\frame_00.png",
+   "roi_box": [
+    48,
+    209,
+    268,
+    374
+   ],
+   "car_box": [
+    176,
+    279,
+    219,
+    313
+   ],
+   "width_px": 43,
+   "outside_changed_px": 0,
+   "type": "pickup",
+   "color": "deep red",
+   "view": "front",
+   "light": "hazy night"
+  },
+  {
+   "id": "s055",
+   "roi": "n055",
+   "camera": "[경부선] 양재",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 양재\\frame_01.png",
+   "roi_box": [
+    477,
+    342,
+    657,
+    477
+   ],
+   "car_box": [
+    568,
+    382,
+    592,
+    413
+   ],
+   "width_px": 24,
+   "outside_changed_px": 0,
+   "type": "box truck",
+   "color": "deep red",
+   "view": "front",
+   "light": "hazy night"
+  },
+  {
+   "id": "s056",
+   "roi": "n056",
+   "camera": "[경부선] 양재",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 양재\\frame_02.png",
+   "roi_box": [
+    207,
+    351,
+    367,
+    471
+   ],
+   "car_box": [
+    271,
+    377,
+    334,
+    449
+   ],
+   "width_px": 63,
+   "outside_changed_px": 0,
+   "type": "city bus",
+   "color": "deep red",
+   "view": "front",
+   "light": "very dark"
+  },
+  {
+   "id": "s057",
+   "roi": "n057",
+   "camera": "[경부선] 원지동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 원지동\\frame_00.png",
+   "roi_box": [
+    0,
+    312,
+    220,
+    477
+   ],
+   "car_box": [
+    130,
+    327,
+    184,
+    358
+   ],
+   "width_px": 54,
+   "outside_changed_px": 0,
+   "type": "sports coupe",
+   "color": "deep red",
+   "view": "front three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s058",
+   "roi": "n058",
+   "camera": "[경부선] 원지동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 원지동\\frame_01.png",
+   "roi_box": [
+    519,
+    329,
+    719,
+    479
+   ],
+   "car_box": [
+    550,
+    348,
+    600,
+    395
+   ],
+   "width_px": 50,
+   "outside_changed_px": 0,
+   "type": "taxi",
+   "color": "deep red",
+   "view": "front three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s059",
+   "roi": "n059",
+   "camera": "[경부선] 원지동",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 원지동\\frame_02.png",
+   "roi_box": [
+    536,
+    308,
+    696,
+    428
+   ],
+   "car_box": [
+    562,
+    337,
+    602,
+    378
+   ],
+   "width_px": 40,
+   "outside_changed_px": 0,
+   "type": "compact car",
+   "color": "deep red",
+   "view": "front three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s060",
+   "roi": "n060",
+   "camera": "[경부선] 판교3",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 판교3\\frame_00.png",
+   "roi_box": [
+    0,
+    202,
+    220,
+    367
+   ],
+   "car_box": [
+    162,
+    305,
+    206,
+    336
+   ],
+   "width_px": 44,
+   "outside_changed_px": 0,
+   "type": "sedan",
+   "color": "black",
+   "view": "rear",
+   "light": "very dark"
+  },
+  {
+   "id": "s061",
+   "roi": "n061",
+   "camera": "[경부선] 판교3",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 판교3\\frame_01.png",
+   "roi_box": [
+    510,
+    261,
+    710,
+    411
+   ],
+   "car_box": [
+    594,
+    350,
+    626,
+    378
+   ],
+   "width_px": 32,
+   "outside_changed_px": 0,
+   "type": "SUV",
+   "color": "black",
+   "view": "rear",
+   "light": "very dark"
+  },
+  {
+   "id": "s062",
+   "roi": "n062",
+   "camera": "[경부선] 판교3",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 판교3\\frame_02.png",
+   "roi_box": [
+    483,
+    314,
+    703,
+    479
+   ],
+   "car_box": [
+    590,
+    356,
+    625,
+    389
+   ],
+   "width_px": 35,
+   "outside_changed_px": 0,
+   "type": "minivan",
+   "color": "black",
+   "view": "rear",
+   "light": "very dark"
+  },
+  {
+   "id": "s063",
+   "roi": "n063",
+   "camera": "[경부선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 판교분기점\\frame_00.png",
+   "roi_box": [
+    190,
+    239,
+    410,
+    404
+   ],
+   "car_box": [
+    229,
+    319,
+    283,
+    350
+   ],
+   "width_px": 54,
+   "outside_changed_px": 0,
+   "type": "hatchback",
+   "color": "black",
+   "view": "rear three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s064",
+   "roi": "n064",
+   "camera": "[경부선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 판교분기점\\frame_01.png",
+   "roi_box": [
+    136,
+    359,
+    296,
+    479
+   ],
+   "car_box": [
+    177,
+    407,
+    259,
+    467
+   ],
+   "width_px": 82,
+   "outside_changed_px": 0,
+   "type": "pickup",
+   "color": "black",
+   "view": "rear three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s065",
+   "roi": "n065",
+   "camera": "[경부선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[경부선] 판교분기점\\frame_02.png",
+   "roi_box": [
+    408,
+    206,
+    628,
+    371
+   ],
+   "car_box": [
+    474,
+    262,
+    545,
+    314
+   ],
+   "width_px": 71,
+   "outside_changed_px": 0,
+   "type": "box truck",
+   "color": "black",
+   "view": "rear three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s066",
+   "roi": "n066",
+   "camera": "[수도권제1순환선] 성남",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[수도권제1순환선] 성남\\frame_00.png",
+   "roi_box": [
+    0,
+    263,
+    220,
+    428
+   ],
+   "car_box": [
+    156,
+    286,
+    195,
+    328
+   ],
+   "width_px": 39,
+   "outside_changed_px": 0,
+   "type": "city bus",
+   "color": "black",
+   "view": "front",
+   "light": "moderate street"
+  },
+  {
+   "id": "s067",
+   "roi": "n067",
+   "camera": "[수도권제1순환선] 성남",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[수도권제1순환선] 성남\\frame_01.png",
+   "roi_box": [
+    190,
+    299,
+    390,
+    449
+   ],
+   "car_box": [
+    314,
+    321,
+    346,
+    346
+   ],
+   "width_px": 32,
+   "outside_changed_px": 0,
+   "type": "sports coupe",
+   "color": "black",
+   "view": "front",
+   "light": "moderate street"
+  },
+  {
+   "id": "s068",
+   "roi": "n068",
+   "camera": "[수도권제1순환선] 성남",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[수도권제1순환선] 성남\\frame_02.png",
+   "roi_box": [
+    322,
+    217,
+    542,
+    382
+   ],
+   "car_box": [
+    425,
+    326,
+    449,
+    345
+   ],
+   "width_px": 24,
+   "outside_changed_px": 0,
+   "type": "taxi",
+   "color": "black",
+   "view": "front",
+   "light": "moderate street"
+  },
+  {
+   "id": "s069",
+   "roi": "n069",
+   "camera": "[수도권제1순환선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[수도권제1순환선] 판교분기점\\frame_00.png",
+   "roi_box": [
+    234,
+    344,
+    414,
+    479
+   ],
+   "car_box": [
+    324,
+    409,
+    378,
+    469
+   ],
+   "width_px": 54,
+   "outside_changed_px": 0,
+   "type": "compact car",
+   "color": "black",
+   "view": "front three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s070",
+   "roi": "n070",
+   "camera": "[수도권제1순환선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[수도권제1순환선] 판교분기점\\frame_01.png",
+   "roi_box": [
+    519,
+    217,
+    719,
+    367
+   ],
+   "car_box": [
+    618,
+    222,
+    699,
+    285
+   ],
+   "width_px": 81,
+   "outside_changed_px": 0,
+   "type": "sedan",
+   "color": "dark navy",
+   "view": "front three-quarter",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s071",
+   "roi": "n071",
+   "camera": "[수도권제1순환선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-21_2230\\[수도권제1순환선] 판교분기점\\frame_02.png",
+   "roi_box": [
+    273,
+    329,
+    473,
+    479
+   ],
+   "car_box": [
+    354,
+    404,
+    420,
+    454
+   ],
+   "width_px": 66,
+   "outside_changed_px": 0,
+   "type": "SUV",
+   "color": "dark navy",
+   "view": "front three-quarter",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s072",
+   "roi": "n072",
+   "camera": "[경부선] 금현동",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 금현동\\frame_00.png",
+   "roi_box": [
+    519,
+    329,
+    719,
+    479
+   ],
+   "car_box": [
+    541,
+    341,
+    567,
+    374
+   ],
+   "width_px": 26,
+   "outside_changed_px": 0,
+   "type": "minivan",
+   "color": "dark navy",
+   "view": "rear",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s073",
+   "roi": "n073",
+   "camera": "[경부선] 금현동",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 금현동\\frame_01.png",
+   "roi_box": [
+    248,
+    266,
+    408,
+    386
+   ],
+   "car_box": [
+    338,
+    298,
+    376,
+    328
+   ],
+   "width_px": 38,
+   "outside_changed_px": 0,
+   "type": "hatchback",
+   "color": "dark navy",
+   "view": "rear",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s074",
+   "roi": "n074",
+   "camera": "[경부선] 금현동",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 금현동\\frame_02.png",
+   "roi_box": [
+    445,
+    215,
+    645,
+    365
+   ],
+   "car_box": [
+    516,
+    246,
+    549,
+    277
+   ],
+   "width_px": 33,
+   "outside_changed_px": 0,
+   "type": "pickup",
+   "color": "dark navy",
+   "view": "rear",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s075",
+   "roi": "n075",
+   "camera": "[경부선] 달래내1",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 달래내1\\frame_00.png",
+   "roi_box": [
+    326,
+    188,
+    486,
+    308
+   ],
+   "car_box": [
+    400,
+    203,
+    451,
+    254
+   ],
+   "width_px": 51,
+   "outside_changed_px": 0,
+   "type": "box truck",
+   "color": "dark navy",
+   "view": "rear three-quarter",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s076",
+   "roi": "n076",
+   "camera": "[경부선] 달래내1",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 달래내1\\frame_01.png",
+   "roi_box": [
+    20,
+    230,
+    180,
+    350
+   ],
+   "car_box": [
+    70,
+    234,
+    161,
+    297
+   ],
+   "width_px": 91,
+   "outside_changed_px": 0,
+   "type": "city bus",
+   "color": "dark navy",
+   "view": "rear three-quarter",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s077",
+   "roi": "n077",
+   "camera": "[경부선] 달래내1",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 달래내1\\frame_02.png",
+   "roi_box": [
+    82,
+    324,
+    282,
+    474
+   ],
+   "car_box": [
+    142,
+    394,
+    206,
+    433
+   ],
+   "width_px": 64,
+   "outside_changed_px": 0,
+   "type": "sports coupe",
+   "color": "dark navy",
+   "view": "rear three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s078",
+   "roi": "n078",
+   "camera": "[경부선] 달래내2",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 달래내2\\frame_00.png",
+   "roi_box": [
+    20,
+    191,
+    220,
+    341
+   ],
+   "car_box": [
+    189,
+    224,
+    210,
+    246
+   ],
+   "width_px": 21,
+   "outside_changed_px": 0,
+   "type": "taxi",
+   "color": "dark navy",
+   "view": "front",
+   "light": "hazy night"
+  },
+  {
+   "id": "s079",
+   "roi": "n079",
+   "camera": "[경부선] 달래내2",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 달래내2\\frame_01.png",
+   "roi_box": [
+    515,
+    243,
+    695,
+    378
+   ],
+   "car_box": [
+    541,
+    286,
+    573,
+    313
+   ],
+   "width_px": 32,
+   "outside_changed_px": 0,
+   "type": "compact car",
+   "color": "dark navy",
+   "view": "front",
+   "light": "hazy night"
+  },
+  {
+   "id": "s080",
+   "roi": "n080",
+   "camera": "[경부선] 달래내2",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 달래내2\\frame_02.png",
+   "roi_box": [
+    136,
+    220,
+    336,
+    370
+   ],
+   "car_box": [
+    266,
+    233,
+    296,
+    257
+   ],
+   "width_px": 30,
+   "outside_changed_px": 0,
+   "type": "sedan",
+   "color": "dark gray",
+   "view": "front",
+   "light": "hazy night"
+  },
+  {
+   "id": "s081",
+   "roi": "n081",
+   "camera": "[경부선] 삼평터널(서울)",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 삼평터널(서울)\\frame_00.png",
+   "roi_box": [
+    436,
+    202,
+    656,
+    367
+   ],
+   "car_box": [
+    477,
+    213,
+    543,
+    275
+   ],
+   "width_px": 66,
+   "outside_changed_px": 0,
+   "type": "SUV",
+   "color": "dark gray",
+   "view": "front three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s082",
+   "roi": "n082",
+   "camera": "[경부선] 삼평터널(서울)",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 삼평터널(서울)\\frame_01.png",
+   "roi_box": [
+    316,
+    176,
+    536,
+    341
+   ],
+   "car_box": [
+    440,
+    197,
+    510,
+    260
+   ],
+   "width_px": 70,
+   "outside_changed_px": 0,
+   "type": "minivan",
+   "color": "dark gray",
+   "view": "front three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s083",
+   "roi": "n083",
+   "camera": "[경부선] 삼평터널(서울)",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 삼평터널(서울)\\frame_02.png",
+   "roi_box": [
+    349,
+    270,
+    569,
+    435
+   ],
+   "car_box": [
+    414,
+    277,
+    499,
+    343
+   ],
+   "width_px": 85,
+   "outside_changed_px": 0,
+   "type": "hatchback",
+   "color": "dark gray",
+   "view": "front three-quarter",
+   "light": "hazy night"
+  },
+  {
+   "id": "s084",
+   "roi": "n084",
+   "camera": "[경부선] 상적교",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 상적교\\frame_00.png",
+   "roi_box": [
+    325,
+    344,
+    505,
+    479
+   ],
+   "car_box": [
+    387,
+    408,
+    440,
+    451
+   ],
+   "width_px": 53,
+   "outside_changed_px": 0,
+   "type": "pickup",
+   "color": "dark gray",
+   "view": "rear",
+   "light": "very dark"
+  },
+  {
+   "id": "s086",
+   "roi": "n086",
+   "camera": "[경부선] 상적교",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 상적교\\frame_02.png",
+   "roi_box": [
+    494,
+    210,
+    694,
+    360
+   ],
+   "car_box": [
+    517,
+    248,
+    630,
+    332
+   ],
+   "width_px": 113,
+   "outside_changed_px": 0,
+   "type": "city bus",
+   "color": "dark gray",
+   "view": "rear",
+   "light": "very dark"
+  },
+  {
+   "id": "s087",
+   "roi": "n087",
+   "camera": "[경부선] 서초",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 서초\\frame_00.png",
+   "roi_box": [
+    0,
+    261,
+    160,
+    381
+   ],
+   "car_box": [
+    74,
+    269,
+    142,
+    305
+   ],
+   "width_px": 68,
+   "outside_changed_px": 0,
+   "type": "sports coupe",
+   "color": "dark gray",
+   "view": "rear three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s088",
+   "roi": "n088",
+   "camera": "[경부선] 서초",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 서초\\frame_01.png",
+   "roi_box": [
+    59,
+    272,
+    259,
+    422
+   ],
+   "car_box": [
+    165,
+    299,
+    245,
+    357
+   ],
+   "width_px": 80,
+   "outside_changed_px": 0,
+   "type": "taxi",
+   "color": "dark gray",
+   "view": "rear three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s089",
+   "roi": "n089",
+   "camera": "[경부선] 서초",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 서초\\frame_02.png",
+   "roi_box": [
+    149,
+    316,
+    349,
+    466
+   ],
+   "car_box": [
+    274,
+    393,
+    318,
+    426
+   ],
+   "width_px": 44,
+   "outside_changed_px": 0,
+   "type": "compact car",
+   "color": "dark gray",
+   "view": "rear three-quarter",
+   "light": "very dark"
+  },
+  {
+   "id": "s090",
+   "roi": "n090",
+   "camera": "[경부선] 양재",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 양재\\frame_00.png",
+   "roi_box": [
+    142,
+    176,
+    342,
+    326
+   ],
+   "car_box": [
+    273,
+    265,
+    302,
+    286
+   ],
+   "width_px": 29,
+   "outside_changed_px": 0,
+   "type": "sedan",
+   "color": "white",
+   "view": "front",
+   "light": "very dark"
+  },
+  {
+   "id": "s091",
+   "roi": "n091",
+   "camera": "[경부선] 양재",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 양재\\frame_01.png",
+   "roi_box": [
+    166,
+    263,
+    326,
+    383
+   ],
+   "car_box": [
+    249,
+    303,
+    304,
+    356
+   ],
+   "width_px": 55,
+   "outside_changed_px": 0,
+   "type": "SUV",
+   "color": "white",
+   "view": "front",
+   "light": "moderate street"
+  },
+  {
+   "id": "s092",
+   "roi": "n092",
+   "camera": "[경부선] 양재",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 양재\\frame_02.png",
+   "roi_box": [
+    138,
+    246,
+    298,
+    366
+   ],
+   "car_box": [
+    208,
+    266,
+    269,
+    324
+   ],
+   "width_px": 61,
+   "outside_changed_px": 0,
+   "type": "minivan",
+   "color": "white",
+   "view": "front",
+   "light": "moderate street"
+  },
+  {
+   "id": "s093",
+   "roi": "n093",
+   "camera": "[경부선] 원지동",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 원지동\\frame_00.png",
+   "roi_box": [
+    539,
+    311,
+    719,
+    446
+   ],
+   "car_box": [
+    563,
+    347,
+    607,
+    388
+   ],
+   "width_px": 44,
+   "outside_changed_px": 0,
+   "type": "hatchback",
+   "color": "white",
+   "view": "front three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s094",
+   "roi": "n094",
+   "camera": "[경부선] 원지동",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 원지동\\frame_01.png",
+   "roi_box": [
+    175,
+    197,
+    395,
+    362
+   ],
+   "car_box": [
+    314,
+    230,
+    364,
+    263
+   ],
+   "width_px": 50,
+   "outside_changed_px": 0,
+   "type": "pickup",
+   "color": "white",
+   "view": "front three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s095",
+   "roi": "n095",
+   "camera": "[경부선] 원지동",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 원지동\\frame_02.png",
+   "roi_box": [
+    98,
+    226,
+    298,
+    376
+   ],
+   "car_box": [
+    197,
+    256,
+    260,
+    311
+   ],
+   "width_px": 63,
+   "outside_changed_px": 0,
+   "type": "box truck",
+   "color": "white",
+   "view": "front three-quarter",
+   "light": "moderate street"
+  },
+  {
+   "id": "s096",
+   "roi": "n096",
+   "camera": "[경부선] 판교3",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 판교3\\frame_00.png",
+   "roi_box": [
+    0,
+    294,
+    180,
+    429
+   ],
+   "car_box": [
+    143,
+    324,
+    175,
+    355
+   ],
+   "width_px": 32,
+   "outside_changed_px": 0,
+   "type": "city bus",
+   "color": "white",
+   "view": "rear",
+   "light": "moderate street"
+  },
+  {
+   "id": "s097",
+   "roi": "n097",
+   "camera": "[경부선] 판교3",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 판교3\\frame_01.png",
+   "roi_box": [
+    404,
+    172,
+    624,
+    337
+   ],
+   "car_box": [
+    505,
+    237,
+    530,
+    254
+   ],
+   "width_px": 25,
+   "outside_changed_px": 0,
+   "type": "sports coupe",
+   "color": "white",
+   "view": "rear",
+   "light": "moderate street"
+  },
+  {
+   "id": "s098",
+   "roi": "n098",
+   "camera": "[경부선] 판교3",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 판교3\\frame_02.png",
+   "roi_box": [
+    177,
+    269,
+    337,
+    389
+   ],
+   "car_box": [
+    270,
+    284,
+    300,
+    308
+   ],
+   "width_px": 30,
+   "outside_changed_px": 0,
+   "type": "taxi",
+   "color": "white",
+   "view": "rear",
+   "light": "tunnel-exit"
+  },
+  {
+   "id": "s099",
+   "roi": "n099",
+   "camera": "[경부선] 판교분기점",
+   "frame": "D:\\Cache\\its_night\\2026-11-22_0130\\[경부선] 판교분기점\\frame_00.png",
+   "roi_box": [
+    375,
+    344,
+    555,
+    479
+   ],
+   "car_box": [
+    410,
+    425,
+    446,
+    453
+   ],
+   "width_px": 36,
+   "outside_changed_px": 0,
+   "type": "compact car",
+   "color": "white",
+   "view": "rear three-quarter",
+   "light": "tunnel-exit"
+  }
+ ]
+}

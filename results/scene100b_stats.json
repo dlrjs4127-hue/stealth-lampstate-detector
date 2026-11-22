@@ -1,0 +1,41 @@
+{
+  "made": 98,
+  "skipped": 2,
+  "skip_reasons": {
+    "no_car": 2
+  },
+  "cameras": 12,
+  "unique_frames": 98,
+  "outside_changed_max": 0,
+  "width": {
+    "min": 19,
+    "median": 45,
+    "max": 159
+  },
+  "types": {
+    "sedan": 10,
+    "SUV": 10,
+    "minivan": 9,
+    "hatchback": 10,
+    "pickup": 10,
+    "box truck": 9,
+    "city bus": 10,
+    "sports coupe": 10,
+    "taxi": 10,
+    "compact car": 10
+  },
+  "colors": {
+    "black": 20,
+    "dark navy": 20,
+    "dark gray": 19,
+    "white": 19,
+    "silver": 10,
+    "deep red": 10
+  },
+  "views": {
+    "rear": 26,
+    "rear three-quarter": 25,
+    "front": 23,
+    "front three-quarter": 24
+  }
+}
